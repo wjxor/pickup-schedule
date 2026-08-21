@@ -5,9 +5,10 @@
  *   npm run collect                       모든 게임을 수집해 결과 요약만 출력
  *   npm run collect -- --game genshin     특정 게임만 수집
  *   npm run collect -- --out <경로>        수집 결과를 JSON 파일로 저장
+ *   npm run collect -- --save             수집 결과를 Supabase에 저장
  *
- * 목 데이터를 갱신할 때:
- *   npm run collect:mock
+ * 목 데이터를 갱신할 때:   npm run collect:mock
+ * DB에 쌓을 때:            npm run collect:save
  */
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
@@ -15,17 +16,22 @@ import { randomUUID } from 'node:crypto';
 
 import { GAME_LIST, getGame, type GameDefinition } from '@/config/games';
 import { collectAll, createCollectorContext } from '@/lib/collectors';
+import { saveEvents } from '@/lib/events/ingest';
 import { logger } from '@/lib/logger';
 import type { GameEvent } from '@/types/event';
+
+import { loadEnvFiles } from './load-env';
 
 interface CliOptions {
   games: GameDefinition[];
   outPath: string | null;
+  save: boolean;
 }
 
 /** `--key value` 형태의 인자만 지원한다. 옵션이 늘면 파서 라이브러리로 교체한다. */
 function parseArgs(argv: string[]): CliOptions {
   let outPath: string | null = null;
+  let save = false;
   const slugs: string[] = [];
 
   for (let index = 0; index < argv.length; index += 1) {
@@ -33,6 +39,8 @@ function parseArgs(argv: string[]): CliOptions {
     if (current === '--out') {
       outPath = argv[index + 1] ?? null;
       index += 1;
+    } else if (current === '--save') {
+      save = true;
     } else if (current === '--game') {
       const slug = argv[index + 1];
       if (slug) slugs.push(slug);
@@ -49,11 +57,13 @@ function parseArgs(argv: string[]): CliOptions {
     return [game];
   });
 
-  return { games, outPath };
+  return { games, outPath, save };
 }
 
 async function main(): Promise<void> {
-  const { games, outPath } = parseArgs(process.argv.slice(2));
+  loadEnvFiles();
+
+  const { games, outPath, save } = parseArgs(process.argv.slice(2));
 
   if (games.length === 0) {
     logger.error('수집할 게임이 없습니다.');
@@ -90,6 +100,29 @@ async function main(): Promise<void> {
     },
     '수집 종료',
   );
+
+  if (save) {
+    // DB에는 수집 원형(CollectedEvent)을 넣는다. id와 타임스탬프는 DB가 채운다.
+    const collected = results.flatMap((result) => result.events);
+    const ingestResult = await saveEvents(collected);
+
+    logger.info(
+      {
+        저장됨: ingestResult.upserted,
+        건너뜀: ingestResult.skipped,
+        실패: ingestResult.errors.length,
+      },
+      'DB 저장 완료',
+    );
+
+    for (const message of ingestResult.errors) {
+      logger.error(message);
+    }
+
+    if (ingestResult.errors.length > 0) {
+      process.exitCode = 1;
+    }
+  }
 
   if (outPath === null) return;
 

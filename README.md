@@ -31,7 +31,9 @@ npm run dev
 ```
 
 Supabase 설정이 없어도 바로 뜬다. 환경변수가 비어 있으면 `src/mocks/events.json`의 목 데이터로 동작한다.
-실제 DB에 연결하려면 [docs/환경변수.md](docs/환경변수.md)를 참고한다.
+
+실제 DB에 연결하려면 [docs/supabase-설정.md](docs/supabase-설정.md)를 순서대로 따라간다.
+환경변수 항목별 설명은 [docs/환경변수.md](docs/환경변수.md)에 있다.
 
 ## 명령어
 
@@ -43,6 +45,8 @@ Supabase 설정이 없어도 바로 뜬다. 환경변수가 비어 있으면 `sr
 | `npm run type-check` | 타입 검사 |
 | `npm run collect` | 모든 게임 일정 수집 (결과 요약만 출력) |
 | `npm run collect:mock` | 수집 결과를 목 데이터 파일로 저장 |
+| `npm run collect:save` | 수집 결과를 Supabase에 저장 (upsert) |
+| `npm run db:check` | Supabase 연결·스키마·데이터 상태 점검 |
 
 특정 게임만 수집하려면:
 

@@ -66,10 +66,16 @@ create table if not exists public.events (
 );
 
 -- 같은 게임의 같은 원본 공지를 두 번 넣지 않게 막는다.
--- external_id가 null인 수동 입력 건은 이 제약에서 제외된다.
-create unique index if not exists events_game_external_id_key
-  on public.events (game_slug, external_id)
-  where external_id is not null;
+--
+-- 부분 인덱스(where external_id is not null)가 아니라 일반 UNIQUE 제약을 쓴다.
+--   1. PostgreSQL은 UNIQUE 제약에서 NULL을 서로 다른 값으로 취급한다.
+--      따라서 external_id가 없는 수동 입력 건은 여러 개 있어도 서로 충돌하지 않는다.
+--   2. 수집기가 쓰는 `on conflict (game_slug, external_id)` upsert는 부분 인덱스를
+--      자동으로 추론하지 못한다. 온전한 제약이어야 동작한다.
+drop index if exists public.events_game_external_id_key;
+alter table public.events drop constraint if exists events_game_external_id_key;
+alter table public.events
+  add constraint events_game_external_id_key unique (game_slug, external_id);
 
 create index if not exists events_start_at_idx on public.events (start_at desc);
 create index if not exists events_end_at_idx   on public.events (end_at);
