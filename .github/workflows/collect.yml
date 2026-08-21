@@ -28,11 +28,15 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      # v4는 액션 내부가 Node.js 20에서 도는데 이 런타임이 지원 종료되어,
+      # 실행할 때마다 deprecation 경고가 뜬다. v5부터 Node.js 24를 쓴다.
       - name: 저장소 체크아웃
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
+      # cache를 명시적으로 지정하고 있으므로, v5·v6에서 바뀐 자동 캐싱 동작에는
+      # 영향받지 않는다.
       - name: Node.js 설치
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '24'
           cache: 'npm'
