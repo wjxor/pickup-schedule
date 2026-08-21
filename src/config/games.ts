@@ -9,6 +9,8 @@
  * UI 색상·정렬·필터는 모두 이 파일을 참조하므로 다른 곳을 수정할 필요가 없다.
  */
 
+import type { EventType } from '@/types/event';
+
 /** 지원 게임 슬러그. URL·DB 키로 쓰이므로 변경하면 마이그레이션이 필요하다. */
 export const GAME_SLUGS = [
   'genshin',
@@ -62,10 +64,44 @@ export type CollectorConfig =
       needsBodyParsing: true;
     }
   | {
-      kind: 'crawler';
-      /** 공지 목록 페이지. 어댑터 구현 전까지는 참고용으로만 쓰인다. */
-      noticeUrl: string;
-      needsBodyParsing: true;
+      /**
+       * 쿠로게임 공식 사이트가 읽는 정적 JSON (명조).
+       * 화면을 긁지 않고 그 화면이 읽는 파일을 그대로 받는다.
+       */
+      kind: 'kurogame';
+      /** CDN 경로의 게임 코드. 명조는 G152. */
+      gameCode: string;
+      /** 언어 세그먼트. 한국은 kr. */
+      locale: string;
+      /** 본문까지 받아올 최근 공지 수. 목록에는 서비스 시작분까지 전부 들어 있다. */
+      limit: number;
+    }
+  | {
+      /**
+       * 레벨 인피니트 CMS 피드 (니케).
+       * 공지 하나에 일정이 여럿 들어 있어 어댑터가 본문을 구획으로 나눈다.
+       */
+      kind: 'levelinfinite';
+      /** CMS의 게임 식별자. 니케는 16. */
+      cmsGameId: string;
+      /** 서비스 리전. 운영 환경은 na. */
+      areaId: string;
+      /** 응답 언어. 한국은 ko. */
+      language: string;
+      /** 상위 컬럼 `official_news`의 ID. */
+      primaryLabelId: number;
+      /** 하위 컬럼 `공지사항`의 ID. */
+      secondaryLabelId: number;
+      /** 본문까지 받아올 최근 공지 수. */
+      noticeCount: number;
+      /**
+       * 저장할 일정 종류.
+       *
+       * 이 게임만 공지 하나가 수십 개 구획으로 쪼개진다. 그대로 두면 상점 판매나
+       * 아레나 시즌 같은 게임 내 운영 일정까지 달력을 가득 채워, 다른 게임의
+       * 픽업이 묻힌다. 그래서 여기서만 종류를 추려 담는다.
+       */
+      keepTypes: EventType[];
     }
   | {
       kind: 'manual';
@@ -145,9 +181,14 @@ export const GAMES: Record<GameSlug, GameDefinition> = {
     color: '#f472b6',
     officialUrl: 'https://nikke-kr.com/',
     collector: {
-      kind: 'crawler',
-      noticeUrl: 'https://nikke-kr.com/',
-      needsBodyParsing: true,
+      kind: 'levelinfinite',
+      cmsGameId: '16',
+      areaId: 'na',
+      language: 'ko',
+      primaryLabelId: 309,
+      secondaryLabelId: 892,
+      noticeCount: 20,
+      keepTypes: ['픽업', '복각', '이벤트', '콜라보'],
     },
   },
   wuwa: {
@@ -155,11 +196,12 @@ export const GAMES: Record<GameSlug, GameDefinition> = {
     name: '명조: 워더링 웨이브',
     shortName: '명조',
     color: '#c084fc',
-    officialUrl: 'https://wutheringwaves.kurogames.com/kr/',
+    officialUrl: 'https://wutheringwaves.kurogames.com/kr/main',
     collector: {
-      kind: 'crawler',
-      noticeUrl: 'https://wutheringwaves.kurogames.com/kr/',
-      needsBodyParsing: true,
+      kind: 'kurogame',
+      gameCode: 'G152',
+      locale: 'kr',
+      limit: 60,
     },
   },
   limbus: {
