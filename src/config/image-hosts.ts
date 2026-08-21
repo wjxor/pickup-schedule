@@ -17,6 +17,14 @@ export const ALLOWED_IMAGE_HOSTS = [
   'upload-os-bbs.hoyolab.com',
   /** 스팀 커뮤니티 공지 이미지 (림버스 컴퍼니) */
   'clan.cloudflare.steamstatic.com',
+  /** 쿠로게임 공식 사이트 공지 이미지 (명조) */
+  'hw-media-cdn-mingchao.kurogame.com',
+  /**
+   * 레벨 인피니트 CMS 공지 이미지 (니케).
+   * 니케는 공지를 구획으로 쪼개 담으므로 대부분의 카드에 이미지가 없다.
+   * 구획이 없어 공지 한 건을 그대로 남길 때만 이 호스트를 쓴다.
+   */
+  'na-nikke-aws.playerinfinite.com',
 ] as const;
 
 /**
