@@ -17,6 +17,33 @@ const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 /** DB 연결 정보가 갖춰졌는지. 둘 중 하나라도 비면 목 데이터를 쓴다. */
 export const isDatabaseConfigured = Boolean(supabaseUrl && supabaseAnonKey);
 
+/**
+ * 화면에 불러올 과거 구간의 길이(일).
+ *
+ * DB에는 수집한 일정이 계속 쌓이지만, 달력에서 실제로 보는 것은 최근과 앞으로다.
+ * 오래전에 끝난 일정까지 매번 실어 나르면 응답만 무거워진다.
+ * 이 값을 넘긴 데이터도 DB에는 그대로 남아 있어, 나중에 통계를 내거나
+ * 기간을 늘리고 싶을 때 다시 꺼낼 수 있다.
+ */
+const PAST_WINDOW_DAYS = 90;
+
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+/** 이 시각 이전에 이미 끝난 일정은 부르지 않는다. */
+function pastCutoff(now: number): string {
+  return new Date(now - PAST_WINDOW_DAYS * DAY_MS).toISOString();
+}
+
+/**
+ * 아직 화면에 보일 만한 일정인지.
+ *
+ * 종료일을 모르는 일정(리딤코드, 상시 공지 등)은 시작일로 판단한다.
+ * 미래 일정은 시작일이 오늘보다 뒤이므로 항상 통과한다.
+ */
+function isWithinWindow(event: GameEvent, cutoff: string): boolean {
+  return (event.endAt ?? event.startAt) >= cutoff;
+}
+
 /** DB의 snake_case 컬럼을 앱에서 쓰는 camelCase로 옮긴다. */
 interface EventRow {
   id: string;
@@ -74,8 +101,11 @@ export interface EventSnapshot {
 export async function getEvents(): Promise<EventSnapshot> {
   const fetchedAt = new Date().toISOString();
 
+  const cutoff = pastCutoff(Date.parse(fetchedAt));
+
   if (!isDatabaseConfigured) {
-    return { events: mockEvents as GameEvent[], fetchedAt };
+    const events = (mockEvents as GameEvent[]).filter((event) => isWithinWindow(event, cutoff));
+    return { events, fetchedAt };
   }
 
   try {
@@ -83,6 +113,9 @@ export async function getEvents(): Promise<EventSnapshot> {
     const { data, error } = await supabase
       .from('events')
       .select('*')
+      // 종료일이 있으면 그 값으로, 없으면 시작일로 걸러낸다.
+      // PostgREST에서는 이런 "둘 중 하나" 조건을 or(...) 문자열로 적는다.
+      .or(`end_at.gte.${cutoff},and(end_at.is.null,start_at.gte.${cutoff})`)
       .order('start_at', { ascending: false });
 
     if (error) throw new Error(error.message);
@@ -90,6 +123,7 @@ export async function getEvents(): Promise<EventSnapshot> {
     return { events: (data as EventRow[]).map(toGameEvent), fetchedAt };
   } catch (error) {
     logger.error({ err: error }, 'DB 조회 실패. 목 데이터로 대체합니다.');
-    return { events: mockEvents as GameEvent[], fetchedAt };
+    const events = (mockEvents as GameEvent[]).filter((event) => isWithinWindow(event, cutoff));
+    return { events, fetchedAt };
   }
 }
