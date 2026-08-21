@@ -45,7 +45,8 @@ npm run type-check && npm run lint && npm run build
 
 ## 알려진 미완성 부분
 
-- 젠레스 존 제로: 공지 API 게이트웨이 호스트 미확정. `games.ts`에서 `verified: false`라 수집을 건너뛴다.
+- 젠레스 존 제로: 공지 API가 없어 HoYoLAB 뉴스 API로 수집한다. 본문에서 기간을 뽑는 구조라
+  일부 공지는 기간을 확정하지 못하고 게시일을 시작으로 사용한다(`endAt`은 `null`).
 - 니케 / 명조: 크롤러 미구현.
 - 림버스 컴퍼니: Steam 뉴스에 종료일이 없어 모든 `endAt`이 `null`이다. 본문 파서 연결 필요.
 - Supabase 연동은 코드만 있고 실제 DB는 아직 만들지 않았다. 환경변수가 없으면 목 데이터로 동작한다.
