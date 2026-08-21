@@ -18,7 +18,6 @@ export const GAME_SLUGS = [
   'zzz',
   'nikke',
   'wuwa',
-  'limbus',
 ] as const;
 
 export type GameSlug = (typeof GAME_SLUGS)[number];
@@ -58,6 +57,11 @@ export type CollectorConfig =
       pageSize: number;
     }
   | {
+      /**
+       * 스팀 공식 뉴스 API.
+       * 지금은 쓰는 게임이 없지만 어댑터는 동작하는 상태로 남겨 뒀다.
+       * 스팀에 있는 게임을 추가할 때 설정만 적으면 바로 쓸 수 있다.
+       */
       kind: 'steam';
       appId: number;
       /** Steam 뉴스는 종료일을 주지 않으므로 본문 파싱 단계가 필요하다. */
@@ -202,18 +206,6 @@ export const GAMES: Record<GameSlug, GameDefinition> = {
       gameCode: 'G152',
       locale: 'kr',
       limit: 60,
-    },
-  },
-  limbus: {
-    slug: 'limbus',
-    name: '림버스 컴퍼니',
-    shortName: '림버스',
-    color: '#fb7185',
-    officialUrl: 'https://steamcommunity.com/app/1973530',
-    collector: {
-      kind: 'steam',
-      appId: 1973530,
-      needsBodyParsing: true,
     },
   },
 };

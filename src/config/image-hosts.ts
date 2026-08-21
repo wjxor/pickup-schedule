@@ -15,7 +15,10 @@ export const ALLOWED_IMAGE_HOSTS = [
   'sdk.hoyoverse.com',
   /** HoYoLAB 게시글 이미지 (젠레스 존 제로) */
   'upload-os-bbs.hoyolab.com',
-  /** 스팀 커뮤니티 공지 이미지 (림버스 컴퍼니) */
+  /**
+   * 스팀 커뮤니티 공지 이미지.
+   * 지금 이 호스트를 쓰는 게임은 없다. 스팀 어댑터와 짝이라 함께 남겨 뒀다.
+   */
   'clan.cloudflare.steamstatic.com',
   /** 쿠로게임 공식 사이트 공지 이미지 (명조) */
   'hw-media-cdn-mingchao.kurogame.com',
