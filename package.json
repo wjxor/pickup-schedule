@@ -9,7 +9,9 @@
     "lint": "eslint",
     "type-check": "tsc --noEmit",
     "collect": "tsx scripts/collect.ts",
-    "collect:mock": "tsx scripts/collect.ts --out src/mocks/events.json"
+    "collect:mock": "tsx scripts/collect.ts --out src/mocks/events.json",
+    "db:check": "tsx scripts/db-check.ts",
+    "collect:save": "tsx scripts/collect.ts --save"
   },
   "dependencies": {
     "@date-fns/tz": "^1.5.0",
