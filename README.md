@@ -63,6 +63,17 @@ GitHub Actions가 하루 4번(한국시간 06 / 12 / 18 / 24시) 자동으로 �
 
 설정 방법은 [docs/수집-자동화.md](docs/수집-자동화.md)를 참고한다.
 
+## 배포
+
+Vercel에 GitHub 저장소를 연결하면 `main` 에 푸시할 때마다 자동 배포된다.
+메인 페이지는 5분마다 재생성(ISR)되므로 매 요청마다 DB를 조회하지 않는다.
+
+```
+GitHub Actions (하루 4번)  →  Supabase  →  Vercel (ISR, 5분)  →  방문자
+```
+
+설정 방법은 [docs/배포.md](docs/배포.md)를 참고한다.
+
 ## 프로젝트 구조
 
 ```
