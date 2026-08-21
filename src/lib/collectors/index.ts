@@ -1,6 +1,7 @@
 import { GAME_LIST, type GameDefinition } from '@/config/games';
 import { logger } from '@/lib/logger';
 import { collectCrawler, collectManual } from '@/lib/collectors/adapters/crawler';
+import { collectHoyolab } from '@/lib/collectors/adapters/hoyolab';
 import { collectHoyoverse } from '@/lib/collectors/adapters/hoyoverse';
 import { collectSteam } from '@/lib/collectors/adapters/steam';
 import type {
@@ -17,6 +18,7 @@ import { collectedEventSchema } from '@/types/event';
  */
 const ADAPTERS: Record<CollectorKind, CollectorAdapter> = {
   hoyoverse: collectHoyoverse,
+  hoyolab: collectHoyolab,
   steam: collectSteam,
   crawler: collectCrawler,
   manual: collectManual,

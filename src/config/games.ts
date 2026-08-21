@@ -44,6 +44,18 @@ export type CollectorConfig =
       verified: boolean;
     }
   | {
+      /**
+       * HoYoLAB 뉴스 API.
+       * 공지 API(getAnnList)를 제공하지 않는 호요버스 게임에 쓴다.
+       * 기간이 구조화돼 있지 않아 본문에서 뽑아내야 한다.
+       */
+      kind: 'hoyolab';
+      /** HoYoLAB 게임 식별자. 1=붕괴3rd, 2=원신, 6=스타레일, 8=젠레스 존 제로 */
+      gids: number;
+      /** 한 번에 가져올 공지 수. 늘리면 본문 요청도 그만큼 늘어난다. */
+      pageSize: number;
+    }
+  | {
       kind: 'steam';
       appId: number;
       /** Steam 뉴스는 종료일을 주지 않으므로 본문 파싱 단계가 필요하다. */
@@ -118,18 +130,12 @@ export const GAMES: Record<GameSlug, GameDefinition> = {
     color: '#fb923c',
     officialUrl: 'https://zenless.hoyoverse.com/ko-kr',
     collector: {
-      // 원신·스타레일과 동일 계열 API로 보이나 게이트웨이 호스트를 아직 확정하지 못했다.
-      // verified:false 상태에서는 수집기가 경고만 남기고 건너뛴다.
-      kind: 'hoyoverse',
-      host: 'https://sg-public-api.hoyoverse.com',
-      bizPath: 'nap_global',
-      game: 'nap',
-      gameBiz: 'nap_global',
-      bundleId: 'nap_global',
-      region: 'prod_gf_jp',
-      level: 60,
-      sourceTimeZone: 'Asia/Shanghai',
-      verified: false,
+      // 이 게임만 공지 API(getAnnList)가 없다. 호스트 8개와 경로 10여 개를 확인했고,
+      // 규칙상 예상되는 sg-nap-api.hoyoverse.com 은 DNS에 아예 존재하지 않는다.
+      // 조사 근거는 docs/조사-젠레스-존-제로-데이터-출처.md 참고.
+      kind: 'hoyolab',
+      gids: 8,
+      pageSize: 30,
     },
   },
   nikke: {

@@ -1,7 +1,8 @@
 import type { GameDefinition } from '@/config/games';
 import { offsetTimeToUtcIso } from '@/lib/datetime';
+import { classifyAnnouncement } from '@/lib/collectors/classify';
 import { type CollectorAdapter, type CollectorResult, skipped } from '@/lib/collectors/types';
-import type { CollectedEvent, EventType } from '@/types/event';
+import type { CollectedEvent } from '@/types/event';
 
 /**
  * 호요버스(원신 / 붕괴: 스타레일 / 젠레스 존 제로) 공지 API 어댑터.
@@ -51,27 +52,6 @@ interface HoyoAnnListResponse {
 const MAX_REASONABLE_PERIOD_DAYS = 400;
 
 const DAY_IN_MS = 86_400_000;
-
-/**
- * 제목·부제로 일정 종류를 판별한다.
- *
- * tag_label을 쓰지 않는 이유: 원신은 숫자(2=기원)인데 스타레일은 한자 문자열(重要)이라
- * 게임 간 의미가 통일돼 있지 않다. 제목 키워드가 더 이식성이 높다.
- */
-export function classifyHoyoAnnouncement(title: string, subtitle = ''): EventType {
-  const text = `${title} ${subtitle}`;
-
-  // 복각은 픽업의 일종이지만 사용자가 구분해서 보고 싶어 하므로 먼저 판정한다.
-  if (/복각/.test(text)) return '복각';
-  // 기원(원신) / 워프(스타레일) / 조율(ZZZ) 이 각 게임의 가챠 명칭이다.
-  if (/기원|워프|조율|픽업|확률\s*UP|확률\s*상승/i.test(text)) return '픽업';
-  if (/콜라보/.test(text)) return '콜라보';
-  if (/특별\s*방송|공식\s*방송|생방송|프리뷰\s*방송/.test(text)) return '공식방송';
-  if (/버전\s*업데이트|업데이트\s*안내|최적화/.test(text)) return '업데이트';
-  if (/\d+\.\d+\s*버전/.test(text)) return '버전';
-  if (/이벤트/.test(text)) return '이벤트';
-  return '공지';
-}
 
 /** list와 pic_list를 하나의 배열로 펼친다. ann_id가 겹치면 먼저 나온 것을 남긴다. */
 function flattenAnnouncements(data: NonNullable<HoyoAnnListResponse['data']>): HoyoAnnouncement[] {
@@ -185,7 +165,7 @@ export const collectHoyoverse: CollectorAdapter = async (game, context) => {
 
     events.push({
       gameSlug: game.slug,
-      type: classifyHoyoAnnouncement(title, item.subtitle ?? ''),
+      type: classifyAnnouncement(title, item.subtitle ?? ''),
       title,
       description: item.subtitle?.trim() || null,
       startAt,
