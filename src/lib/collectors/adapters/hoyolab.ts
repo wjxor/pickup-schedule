@@ -1,5 +1,10 @@
-import { offsetTimeToUtcIso, unixSecondsToUtcIso } from '@/lib/datetime';
+import { unixSecondsToUtcIso } from '@/lib/datetime';
 import { classifyAnnouncement } from '@/lib/collectors/classify';
+import {
+  KST_OFFSET_HOURS,
+  matchToUtcIso,
+  type Period,
+} from '@/lib/collectors/korean-date';
 import { type CollectorAdapter, type CollectorContext, skipped } from '@/lib/collectors/types';
 import type { CollectedEvent } from '@/types/event';
 
@@ -24,9 +29,6 @@ const NEWS_TYPE_NOTICE = 1;
 
 /** 본문 요청 사이에 두는 간격(ms). 상대 서버에 부담을 주지 않기 위한 예의다. */
 const REQUEST_INTERVAL_MS = 300;
-
-/** 본문에 적힌 시각은 (KST) 표기가 붙어 있으므로 한국시간 오프셋으로 해석한다. */
-const KST_OFFSET_HOURS = 9;
 
 interface HoyolabPost {
   post_id?: string;
@@ -89,32 +91,51 @@ export function toPlainText(post: HoyolabPost): string {
 // 기간 추출
 // ---------------------------------------------------------------------------
 
-const KST_DATE = String.raw`(\d{4}/\d{2}/\d{2}\s+\d{2}:\d{2})\(KST\)`;
+/**
+ * `2026/8/19 13:00` / `2026/08/19 13:00:00` — 연·월·일·시·분·초 여섯 그룹.
+ *
+ * 월·일·시를 한 자리로 적는 공지가 섞여 있어 자릿수를 고정하지 않는다.
+ * 초는 붙기도 하고 빠지기도 한다.
+ */
+const KST_DATE = String.raw`(\d{4})/(\d{1,2})/(\d{1,2})\s+(\d{1,2}):(\d{2})(?::(\d{2}))?`;
 
-/** `2026/08/19 13:00(KST) ~ 2026/09/08 15:59(KST)` */
-const ABSOLUTE_PERIOD = new RegExp(`${KST_DATE}\\s*[~-]\\s*${KST_DATE}`);
+/**
+ * 시각 뒤에 붙는 타임존 표기.
+ *
+ * 기간의 **끝**에는 거의 항상 붙지만 시작에는 생략되는 일이 잦다.
+ * (`2026/07/08 13:00 ~ 2026/07/28 15:59(KST)`)
+ * 그래서 시작에는 선택으로 두고 끝에만 요구한다. 표기를 아예 요구하지 않으면
+ * 본문에 흩어진 무관한 날짜까지 기간으로 오인하게 된다.
+ */
+const KST_MARK = String.raw`\s*\(KST\)`;
 
-/** `3.1 버전 업데이트 후 ~ 2026/09/07 04:59(KST)` — 시작만 상대 표현 */
+/**
+ * 버전 상대 표현의 꼬리.
+ * `업데이트 후` 와 `업데이트 이후` 가 섞여 쓰인다.
+ */
+const AFTER_UPDATE = String.raw`버전\s*업데이트\s*(?:이)?후`;
+
+/** `2026/08/19 13:00(KST) ~ 2026/09/08 15:59(KST)` — 시작 1~6, 종료 7~12 그룹 */
+const ABSOLUTE_PERIOD = new RegExp(
+  `${KST_DATE}(?:${KST_MARK})?\\s*[~-]\\s*${KST_DATE}${KST_MARK}`,
+);
+
+/** `3.1 버전 업데이트 이후 ~ 2026/09/07 04:59(KST)` — 버전 1, 종료 2~7 그룹 */
 const RELATIVE_START_PERIOD = new RegExp(
-  String.raw`(?:(\d+\.\d+)\s*)?버전\s*업데이트\s*후\s*[~-]\s*` + KST_DATE,
+  String.raw`(?:(\d+\.\d+)\s*)?` + AFTER_UPDATE + `\\s*[~-]\\s*${KST_DATE}${KST_MARK}`,
 );
 
 /** `3.1 버전 업데이트 후 ~ 3.1 버전 종료 전` — 양쪽 모두 상대 표현 */
-const FULLY_RELATIVE_PERIOD =
-  /(?:(\d+\.\d+)\s*)?버전\s*업데이트\s*후\s*[~-]\s*(?:(\d+\.\d+)\s*)?버전\s*(?:종료|업데이트)\s*전/;
+const FULLY_RELATIVE_PERIOD = new RegExp(
+  String.raw`(?:(\d+\.\d+)\s*)?` +
+    AFTER_UPDATE +
+    String.raw`\s*[~-]\s*(?:(\d+\.\d+)\s*)?버전\s*(?:종료|업데이트)\s*전`,
+);
 
 /** 제목에서 버전 번호를 찾는다. `3.1 버전 「기나긴 이별」 업데이트 공지` → `3.1` */
 const VERSION_IN_TITLE = /(\d+\.\d+)\s*버전/;
 
-export interface Period {
-  startAt: string;
-  endAt: string | null;
-}
-
-/** `2026/08/19 13:00` 형태를 UTC ISO 문자열로 바꾼다. */
-function kstTextToUtcIso(value: string): string {
-  return offsetTimeToUtcIso(value.replace(/\//g, '-'), KST_OFFSET_HOURS);
-}
+export type { Period };
 
 /**
  * 버전별 기간표.
@@ -148,8 +169,8 @@ export function buildVersionPeriods(posts: Array<{ title: string; text: string }
     let from: string;
     let to: string;
     try {
-      from = kstTextToUtcIso(matched[1]);
-      to = kstTextToUtcIso(matched[2]);
+      from = matchToUtcIso(matched, 1, KST_OFFSET_HOURS);
+      to = matchToUtcIso(matched, 7, KST_OFFSET_HOURS);
     } catch {
       continue;
     }
@@ -203,7 +224,10 @@ export function extractPeriod(text: string, versions: VersionPeriods): Period | 
   const absolute = ABSOLUTE_PERIOD.exec(text);
   if (absolute) {
     try {
-      return { startAt: kstTextToUtcIso(absolute[1]), endAt: kstTextToUtcIso(absolute[2]) };
+      return {
+        startAt: matchToUtcIso(absolute, 1, KST_OFFSET_HOURS),
+        endAt: matchToUtcIso(absolute, 7, KST_OFFSET_HOURS),
+      };
     } catch {
       return null;
     }
@@ -214,7 +238,10 @@ export function extractPeriod(text: string, versions: VersionPeriods): Period | 
     const versionPeriod = resolveVersion(versions, relativeStart[1]);
     if (versionPeriod) {
       try {
-        return { startAt: versionPeriod.startAt, endAt: kstTextToUtcIso(relativeStart[2]) };
+        return {
+          startAt: versionPeriod.startAt,
+          endAt: matchToUtcIso(relativeStart, 2, KST_OFFSET_HOURS),
+        };
       } catch {
         return null;
       }
