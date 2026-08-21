@@ -1,5 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 
+import { GAME_SLUGS, isGameSlug } from '@/config/games';
 import { logger } from '@/lib/logger';
 import mockEvents from '@/mocks/events.json';
 import type { GameEvent } from '@/types/event';
@@ -42,6 +43,19 @@ function pastCutoff(now: number): string {
  */
 function isWithinWindow(event: GameEvent, cutoff: string): boolean {
   return (event.endAt ?? event.startAt) >= cutoff;
+}
+
+/**
+ * 지원 목록에서 내려간 게임의 일정을 걸러낸다.
+ *
+ * 게임을 목록에서 빼도 그 게임의 일정은 DB에 그대로 남는다. 지우지 않는 이유는
+ * 나중에 다시 넣기로 하면 과거 일정을 되살릴 수 없기 때문이다.
+ *
+ * 다만 화면은 게임 레지스트리에서 색과 이름을 찾으므로, 등록되지 않은 일정이
+ * 흘러들면 렌더링 도중 터진다. 데이터 계층에서 미리 막아 둔다.
+ */
+function isSupportedGame(event: GameEvent): boolean {
+  return isGameSlug(event.gameSlug);
 }
 
 /** DB의 snake_case 컬럼을 앱에서 쓰는 camelCase로 옮긴다. */
@@ -93,6 +107,13 @@ export interface EventSnapshot {
   fetchedAt: string;
 }
 
+/** 목 데이터에도 DB와 같은 기준을 적용한다. 개발과 운영이 다르게 보이면 안 된다. */
+function filterMockEvents(cutoff: string): GameEvent[] {
+  return (mockEvents as GameEvent[]).filter(
+    (event) => isSupportedGame(event) && isWithinWindow(event, cutoff),
+  );
+}
+
 /**
  * 전체 이벤트를 가져온다.
  *
@@ -104,8 +125,7 @@ export async function getEvents(): Promise<EventSnapshot> {
   const cutoff = pastCutoff(Date.parse(fetchedAt));
 
   if (!isDatabaseConfigured) {
-    const events = (mockEvents as GameEvent[]).filter((event) => isWithinWindow(event, cutoff));
-    return { events, fetchedAt };
+    return { events: filterMockEvents(cutoff), fetchedAt };
   }
 
   try {
@@ -113,6 +133,8 @@ export async function getEvents(): Promise<EventSnapshot> {
     const { data, error } = await supabase
       .from('events')
       .select('*')
+      // 지원 목록에서 내려간 게임은 애초에 가져오지 않는다.
+      .in('game_slug', GAME_SLUGS)
       // 종료일이 있으면 그 값으로, 없으면 시작일로 걸러낸다.
       // PostgREST에서는 이런 "둘 중 하나" 조건을 or(...) 문자열로 적는다.
       .or(`end_at.gte.${cutoff},and(end_at.is.null,start_at.gte.${cutoff})`)
@@ -123,7 +145,6 @@ export async function getEvents(): Promise<EventSnapshot> {
     return { events: (data as EventRow[]).map(toGameEvent), fetchedAt };
   } catch (error) {
     logger.error({ err: error }, 'DB 조회 실패. 목 데이터로 대체합니다.');
-    const events = (mockEvents as GameEvent[]).filter((event) => isWithinWindow(event, cutoff));
-    return { events, fetchedAt };
+    return { events: filterMockEvents(cutoff), fetchedAt };
   }
 }

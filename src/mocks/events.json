@@ -1,645 +1,5 @@
 [
   {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "Notice: Aug. 20th Scheduled Update Addendum & Known Issues in Ver. 1.112.0",
-    "description": null,
-    "startAt": "2026-08-20T08:18:58.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228664743",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1841579228664743",
-    "id": "b312fd61-68e9-4730-8377-319089217342",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "픽업",
-    "title": "2026.08.20 (KST) New Identity Preview",
-    "description": null,
-    "startAt": "2026-08-17T09:29:10.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183785527",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/02801a1bed8c4d467defc035409aaffb393228cd.png",
-    "externalId": "1840944183785527",
-    "id": "afdbbc0d-93cf-4900-b902-fe4e0ae7f82d",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "2026, Aug. 20th Scheduled Update Notice",
-    "description": null,
-    "startAt": "2026-08-17T09:14:09.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183785484",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/e98d1d853fc93b758a96720b66c0199d2fdc5676.png",
-    "externalId": "1840944183785484",
-    "id": "cf753dda-5f2d-4ba6-956b-7d81944c49cd",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "공지",
-    "title": "New Content - \"Reflectrial][lairtcelfeR - Chachihu\"",
-    "description": null,
-    "startAt": "2026-08-17T08:59:08.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183785445",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/e75e56e155b3e4989955644bc459ed89170ebbfe.png",
-    "externalId": "1840944183785445",
-    "id": "174a272c-a647-47ff-a104-89a53eef3b24",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "픽업",
-    "title": "2026.08.20 (KST) New Identity Target Extraction",
-    "description": null,
-    "startAt": "2026-08-14T08:59:30.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840944183778981",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1840944183778981",
-    "id": "49752839-1662-4019-9bab-c8762a7235b4",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "2026, Aug. 13th Scheduled Update Notice",
-    "description": null,
-    "startAt": "2026-08-10T08:59:41.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314350697",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/9b2e539bcefa7630b60a26bd2632513d86fd642a.png",
-    "externalId": "1840310314350697",
-    "id": "1bdf49d5-42d6-470c-846e-f74c3dc568eb",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "Notice: Ver. 1.111.0 Known Issues and Hotfix ETA",
-    "description": null,
-    "startAt": "2026-08-06T09:51:18.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314341370",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1840310314341370",
-    "id": "160714a1-81b4-4552-b97c-b4f0e864e199",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "픽업",
-    "title": "2026.08.06 (KST) New E.G.O Preview",
-    "description": null,
-    "startAt": "2026-08-03T09:29:20.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055894286",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/0e43e6c6a0772eae7978b5cd4b48ccc70107ccbe.png",
-    "externalId": "1839676055894286",
-    "id": "55b555c0-56cf-4c03-81ca-7cb7b38c967c",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "2026, Aug. 6th Scheduled Update Notice",
-    "description": null,
-    "startAt": "2026-08-03T08:59:18.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055894211",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/a469c4b5a0b04aeeb9b88e678165c8555234d5a7.png",
-    "externalId": "1839676055894211",
-    "id": "6d71cfd0-7f41-441d-a1d4-7972e5f40301",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "픽업",
-    "title": "2026.08.06 (KST) New E.G.O Target Extraction",
-    "description": null,
-    "startAt": "2026-07-31T09:20:45.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055887592",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1839676055887592",
-    "id": "fc127633-8e48-4004-a5a1-ec55120320a6",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "이벤트",
-    "title": "Preliminary Notice: New Content and Event for 2026.08.20 (KST)",
-    "description": null,
-    "startAt": "2026-07-31T07:59:38.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839676055887427",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/4590434423d14f3810e655ba0ea233e60de1fee1.png",
-    "externalId": "1839676055887427",
-    "id": "1821f42d-fa86-4d41-b31b-f0fd499b94e6",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "2026, Jul. 30th Scheduled Update Notice",
-    "description": null,
-    "startAt": "2026-07-27T08:59:12.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357035165",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/1c32c55f5d4c8575f6aed29a95ffbfc965dc8546.png",
-    "externalId": "1839041357035165",
-    "id": "e40f74f6-03ae-4e6c-88a0-c708c76d7af2",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "Notice: Ver. 1.110.0 Known Issues and Hotfix ETA",
-    "description": null,
-    "startAt": "2026-07-23T09:22:45.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1839041357026155",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1839041357026155",
-    "id": "ac54a6ed-1f9e-4c55-9bf0-ae442eb5a2b4",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "픽업",
-    "title": "2026.07.23 (KST) New Identity Preview",
-    "description": null,
-    "startAt": "2026-07-20T09:30:41.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329265073",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/484ce147a8c8e0faa8e5327baf3bd05e0a189e63.png",
-    "externalId": "1838407329265073",
-    "id": "d8ec4419-e577-4274-b693-dbb3bba06e48",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "2026, Jul. 23th Scheduled Update Notice",
-    "description": null,
-    "startAt": "2026-07-20T09:14:10.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329265040",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/8e4f8e303835ba5fa0a362fddfc914092a7288d1.png",
-    "externalId": "1838407329265040",
-    "id": "2aa1d5e4-db4d-47b7-b3dc-238004010cd7",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "공지",
-    "title": "New Content - Refraction Railway Line 2 BokGak",
-    "description": null,
-    "startAt": "2026-07-20T08:59:09.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329265012",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/d85a3322a78cf9c03a99119dfb49e529e081593d.png",
-    "externalId": "1838407329265012",
-    "id": "42933f16-ec6d-4ae4-b033-1ad87a4684ca",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "픽업",
-    "title": "2026.07.23 (KST) New Identity Target Extraction",
-    "description": null,
-    "startAt": "2026-07-17T08:59:34.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329258872",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1838407329258872",
-    "id": "e18b825e-4d8f-4faf-8354-947493ee7c32",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "공지",
-    "title": "[ Refraction Railway Line 2 - Möbius BokGak PV ]",
-    "description": null,
-    "startAt": "2026-07-17T08:59:33.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329258871",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1838407329258871",
-    "id": "f1f0fadb-84ff-4aa0-a8bf-78a26091b029",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "Notice: Known Issues after the Jul. 16th, 2026 Scheduled Update",
-    "description": null,
-    "startAt": "2026-07-16T05:31:44.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1838407329255761",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1838407329255761",
-    "id": "588d5986-f44b-4b1a-9606-37a95e2ff6f8",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "2026, Jul. 16th Scheduled Update Notice",
-    "description": null,
-    "startAt": "2026-07-13T09:04:47.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1837955055362842",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/a55454d0dc48ce64df9b3e348b95de451a362a44.png",
-    "externalId": "1837955055362842",
-    "id": "5082e62f-45a1-4c0d-82d5-797cb76582ab",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "픽업",
-    "title": "Notice:Partial Revisions to Passive Texts for Dawn Office Fixer Faust&Rep Gregor",
-    "description": null,
-    "startAt": "2026-07-10T11:44:23.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1837955055356603",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1837955055356603",
-    "id": "ef89940b-a414-41bf-8911-6e2a0f21a951",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "Notice: Issues After the 7/9 Update and Concurrent Player Milestone Reward",
-    "description": null,
-    "startAt": "2026-07-09T09:06:58.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165582789",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1836506165582789",
-    "id": "a8a20ea3-7fdc-4969-a0aa-1cecf47e2e6d",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "Preliminary Notice on Error Popups After the 7/9 Scheduled Update",
-    "description": null,
-    "startAt": "2026-07-09T04:41:40.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165582265",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1836506165582265",
-    "id": "4e57ebaa-0abc-449b-9be5-a0449db87b70",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "공지",
-    "title": "Follow-up Measures on Issues After the Unity Version Upgrade on 5/28/2026",
-    "description": null,
-    "startAt": "2026-07-09T02:06:36.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165582073",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1836506165582073",
-    "id": "c94b6c04-c5e1-4842-9c3c-fcef4a6b69f0",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "픽업",
-    "title": "2026.07.09 (KST) The 9th Walpurgis Night New Identities & E.G.O Preview",
-    "description": null,
-    "startAt": "2026-07-06T09:34:09.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165575499",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/210919e269286a7c76be979e2a9fe3861b46405d.png",
-    "externalId": "1836506165575499",
-    "id": "2d7bc1c9-b9f7-424e-a665-4190e2f94c38",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "2026, Jul. 9th Scheduled Update Notice",
-    "description": null,
-    "startAt": "2026-07-06T09:14:33.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165575462",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/0416f66dabe25ba8f22c4e3d7eaefb60ee978077.png",
-    "externalId": "1836506165575462",
-    "id": "0b7aefc8-e75b-4a96-b8a2-91abc0115e0b",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "이벤트",
-    "title": "New Event - The 9th Walpurgis Night",
-    "description": null,
-    "startAt": "2026-07-06T08:59:32.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165575421",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/5faf585e033d5242c054fb8a934c6a97c03d5f01.png",
-    "externalId": "1836506165575421",
-    "id": "47a60a06-4a21-41d8-a907-628c3737ef4e",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "이벤트",
-    "title": "The 9th Walpurgis Night - PV",
-    "description": null,
-    "startAt": "2026-07-03T09:29:59.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165569971",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1836506165569971",
-    "id": "c10e4b17-76ad-47d9-be34-66c19bee18e1",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "2026, Jul. 2nd Scheduled Update Notice",
-    "description": null,
-    "startAt": "2026-06-29T08:59:11.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165559632",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/21291109089ac33a743f18b3fa3aa22986bafb30.png",
-    "externalId": "1836506165559632",
-    "id": "a3d13c8b-7a55-4ede-a3f9-b1a79bd4c3a5",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "Notice: Ver. 1.108.0 Known Issues and Hotfix ETA",
-    "description": null,
-    "startAt": "2026-06-25T08:52:19.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165548467",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1836506165548467",
-    "id": "2aef3708-3777-44ae-8f8d-6feca6f92b8a",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "Notice: Known Issues After the Jun. 25th Scheduled Update",
-    "description": null,
-    "startAt": "2026-06-25T06:12:42.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165547992",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1836506165547992",
-    "id": "b3b411ee-e70e-44af-a08e-7d8377e6f602",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "픽업",
-    "title": "2026.06.25 (KST) New Identity Preview",
-    "description": null,
-    "startAt": "2026-06-22T09:29:47.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835871199312478",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/3d60914d199f5de6a7077909b7e7e7c4c254c409.png",
-    "externalId": "1835871199312478",
-    "id": "8999eb8b-c8a5-4338-907e-a325d3a8d2d7",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "2026, Jun. 25th Scheduled Update Notice",
-    "description": null,
-    "startAt": "2026-06-22T08:59:45.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835871199312411",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/fb48118e9a4bf04e5a688d60fc85f4fd23769c64.png",
-    "externalId": "1835871199312411",
-    "id": "b641aaa4-bb06-451c-a28b-8ee4e81137dd",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "픽업",
-    "title": "2026.06.25 (KST) New Identity Target Extraction",
-    "description": null,
-    "startAt": "2026-06-19T09:00:27.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835871199306512",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1835871199306512",
-    "id": "e152d5a1-3311-4916-b66f-25beb1a5e42d",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "Notice: Ver. 1.107.1 Known Issues and Hotfix ETA",
-    "description": null,
-    "startAt": "2026-06-18T09:51:45.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835871199303628",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1835871199303628",
-    "id": "0ee72155-61ed-473b-8cbb-512ef483d877",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "2026, Jun. 18th Scheduled Update Notice",
-    "description": null,
-    "startAt": "2026-06-15T09:14:48.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783569576",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/ed20404131de84290060054f3415b20024734a67.png",
-    "externalId": "1835236783569576",
-    "id": "858bb13d-d7ad-43d3-9893-8d063154f65f",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "공지",
-    "title": "New Content: Reflectrial][lairtcelfeR - Mnestic Experience",
-    "description": null,
-    "startAt": "2026-06-15T08:59:48.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783569531",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/1c9ce920a8f89d71610f0739d334e957578c1fca.png",
-    "externalId": "1835236783569531",
-    "id": "98139a9f-3aab-40f5-8f37-abc49a7e7fe4",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "Notice: Ver. 1.107.0 Known Issues and Hotfix ETA",
-    "description": null,
-    "startAt": "2026-06-11T09:48:23.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1835236783559822",
-    "sourceKind": "official_api",
-    "imageUrl": null,
-    "externalId": "1835236783559822",
-    "id": "bba0489d-2cdf-4cec-b8b5-78a3676754ad",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "픽업",
-    "title": "2026.06.11 (KST) Mnestic Experience New Identities & E.G.O Preview",
-    "description": null,
-    "startAt": "2026-06-08T10:30:39.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721198404",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/fe36378f777f073c94e6b954a8ae77e2eb2daa2a.png",
-    "externalId": "1834602721198404",
-    "id": "bbb015f1-efc9-48ff-8790-61888fb211fc",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
-    "gameSlug": "limbus",
-    "type": "업데이트",
-    "title": "2026, Jun. 11th Scheduled Update Notice",
-    "description": null,
-    "startAt": "2026-06-08T09:14:32.000Z",
-    "endAt": null,
-    "region": "KR",
-    "sourceUrl": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721198204",
-    "sourceKind": "official_api",
-    "imageUrl": "https://clan.cloudflare.steamstatic.com/images/43587230/b70ed0de91b7934a8b1ad405c494b6706d5a2123.png",
-    "externalId": "1834602721198204",
-    "id": "36d91dbd-f176-4d70-b135-fe36f33dda1c",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
-  },
-  {
     "gameSlug": "wuwa",
     "type": "업데이트",
     "title": "「신기루 속 등불 그림자, 속세에 깃든 검의 결심」 3.6 버전 업데이트 내용 안내",
@@ -651,9 +11,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1787155200000/6ycrectrjwy2qd9j5p-1787192995426.jpg",
     "externalId": "5358",
-    "id": "c724d585-b8ab-4826-add4-27e288efec13",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "171b71d4-1318-4c79-8f26-a96100c4270d",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -667,9 +27,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785254400000/x88qpapxmpsetf66rm-1785315936326.jpg",
     "externalId": "5238",
-    "id": "0d2381d6-2c14-4fb4-bdf4-8cf44ed98277",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "f6e5842e-7951-42be-8dc5-e9e6559b4d7c",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -683,9 +43,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785254400000/4rpytnugdxa2pwk621-1785315567522.jpg",
     "externalId": "5229",
-    "id": "5f45ad85-af2b-481e-91af-89d0180c7552",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "3ac43565-2e54-46b3-a47e-284fd5c34f17",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -699,9 +59,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783612800000/ek8dnsje4a5ag10hyk-1783654657972.jpg",
     "externalId": "5122",
-    "id": "2e9e20b3-8a57-4fa5-938f-6075c077e91f",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "96e2b1c3-53b6-4d91-b4db-1938164d76ce",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -715,9 +75,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/images/1783612800000/e4i0iqbfzx70gucncm-1783644919314.png",
     "externalId": "5115",
-    "id": "10531006-0193-43b6-a3c3-4b5371683f04",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "1be5ef1c-3f50-4dc0-ac83-4df95f70913a",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -731,9 +91,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/l3s10sghn1p5zy8vza-1783570343724.jpg",
     "externalId": "5078",
-    "id": "64d9bcc4-d3a6-4c46-8bfa-875610bea39b",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "fecfacc5-bec1-4619-acf1-af7931e76e59",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -747,9 +107,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/3u66jf0uzbohw70y4u-1783569293772.jpg",
     "externalId": "5069",
-    "id": "6b768a20-a8bf-46e1-97c6-d06704fcc71d",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "308fdc10-21cc-40f3-b820-a88e24a0f361",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -763,9 +123,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/3mhw03jctv8dcbfu7r-1783567870056.jpg",
     "externalId": "5058",
-    "id": "46ae7772-741a-494b-8fbc-a90b133e4ce7",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "84862584-04a0-43e6-b3ff-6d0584923635",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -779,9 +139,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/fyk4gxu73kl1jxdhy5-1783567526178.jpg",
     "externalId": "5049",
-    "id": "7b884b18-595b-4d42-b580-fa9dc8ab9e8a",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "200913ed-f171-4c47-a31b-c54a35e7c207",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -795,9 +155,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "4947",
-    "id": "672a695f-5cb1-4001-b0ca-8e69ac80f4b6",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "d7843ef7-b243-4580-b298-7ce3370af4b9",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -811,9 +171,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1781193600000/3dw6qcb6jrscuhjqui-1781232694576.jpg",
     "externalId": "4896",
-    "id": "bca09d85-9d36-40b9-a535-64700efcbc51",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "a37635c7-5a2e-43ea-8be4-4fc0f6cb4713",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -827,9 +187,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1781193600000/1suqdgj3f9epsazs9d-1781232096907.jpg",
     "externalId": "4888",
-    "id": "9fff1fd8-970f-4cec-9618-645b7f8d42b6",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "293f88ba-5821-4207-8522-e770448c3e2e",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -843,9 +203,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780675200000/0vtwxqqrm6vlhzl296-1780735595474.jpg",
     "externalId": "4814",
-    "id": "ba369cf9-a982-4031-b7f9-b0a610ed6776",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "594f9189-1bd7-464d-95b4-ba386040026b",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -859,9 +219,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780848000000/hpczfmo8cmbjplak5r-1780911742304.jpg",
     "externalId": "4862",
-    "id": "81b50cbb-97ac-43ce-a732-7297226aa315",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "5a89fefe-6e6d-45bf-97e4-30f8f4af5b30",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -875,9 +235,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780848000000/dj7fgw3hjcu7j3home-1780910955907.jpg",
     "externalId": "4854",
-    "id": "3bc26ab3-4642-480e-8049-94124bab942f",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "75512292-1fc1-417a-a0e4-c03a0ff2f6a4",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -891,9 +251,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780848000000/gdiaj1c83ytp71n1dp-1780910525420.jpg",
     "externalId": "4846",
-    "id": "e5cb50a2-d8ea-47a3-abd0-d51fa24d9464",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "620cbcfc-be66-4dda-92cc-329faefc1e93",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -907,9 +267,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1780848000000/c58zfh7zjpudogwqc5-1780910067661.jpg",
     "externalId": "4838",
-    "id": "38055891-b6b7-49cf-9294-1fdf9bb2dde2",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "4d12e4ce-800c-4091-a36d-c9b3e8f135a0",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -923,9 +283,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1779206400000/z3flr0hz3qkzik6aem-1779257955345.jpg",
     "externalId": "4722",
-    "id": "5150b3bb-b335-4dac-9040-51d7b6263a9d",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "21cf4c9c-e448-4daa-9480-a6981f3242b5",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -939,9 +299,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1779206400000/2fd9362sus0cxljt6p-1779249995717.jpg",
     "externalId": "4714",
-    "id": "30b9f496-488c-44d5-b66f-141701867d8f",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "4401c871-53e2-45d3-ac83-e2f4f7fc10cc",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -955,9 +315,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1778083200000/mbuzie8dc7fpa7ux4y-1778119432183.jpg",
     "externalId": "4646",
-    "id": "5dfb1093-eb69-4dc0-9700-967d9773a283",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "4ed3b103-54c1-4709-9f8b-65a16920b067",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -971,9 +331,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1778083200000/xl9iaiu9v8rqy9bfo4-1778118851087.jpg",
     "externalId": "4638",
-    "id": "e51c9014-2853-45b9-848a-4566f5c40782",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "d0ea7158-7d88-4d8a-9295-7302dfafb3dc",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -987,9 +347,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1777392000000/facsuzrcjx1635yrgt-1777474537060.jpg",
     "externalId": "4615",
-    "id": "67eee8ca-bc95-4f0f-bd28-ac085def8516",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "4ef1e195-f855-42f1-878f-d1e7dc297e1f",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1003,9 +363,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1776182400000/ks9ay4ekytvssqngns-1776217008286.jpg",
     "externalId": "4508",
-    "id": "f1fdd41f-3703-4a9f-87be-28afcc62d20e",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "b5a7c408-68c6-485c-802a-db4ead7b0299",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1019,9 +379,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1774972800000/bcv5wh76aqjkurh2w7-1775034294503.jpg",
     "externalId": "4468",
-    "id": "d77630eb-757a-4d8b-8923-7f8a04120e8d",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "49c6298c-f0f8-4bfc-8471-016f79cee02a",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1035,9 +395,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1774972800000/l36xhr43cbp9jetyw6-1775033743914.jpg",
     "externalId": "4460",
-    "id": "d29a86a6-0349-4a15-bd96-a64cee5bdeec",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "9be359f5-0d62-45fd-9d35-c7a47f4965ad",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1051,9 +411,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1773849600000/r7hexmrig3lyx0d484-1773888182536.jpg",
     "externalId": "4449",
-    "id": "3237c155-b12a-463a-a67b-2dc7c905accc",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "dac82dfb-6895-46bf-a3a9-8e36939365d8",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1067,9 +427,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1773763200000/lycdm6xrel51lpkmqf-1773805202477.jpg",
     "externalId": "4425",
-    "id": "bc4dffac-50e2-4ea8-b904-4ee6f337e1bd",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "ced23631-9186-49c9-aea5-e3d0ea214789",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1083,9 +443,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1773763200000/6eriqw6y5yln3npxfb-1773805135274.jpg",
     "externalId": "4424",
-    "id": "552f7469-9c5e-4623-9cae-b3af0fe74080",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "f552c2c2-09a4-4aa1-ad0d-a654ddf09b7c",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1099,9 +459,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1773763200000/ev0u4k4l5ppgnj5l8n-1773805053854.jpg",
     "externalId": "4423",
-    "id": "3fef6875-b399-49f5-9caf-e070fb033550",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "7ff79a29-90f4-4f12-9a94-988f6f5a3c0c",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1115,9 +475,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1773849600000/i7ygxugm33u5u25zgm-1773905173482.jpg",
     "externalId": "4453",
-    "id": "2c03d007-a2a5-4bea-a643-f8a4121e3dc1",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "7026ba01-7b32-476f-9359-a00334a08f8a",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1131,9 +491,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1773331200000/7g2rma7ro2rxefla6x-1773405174180.jpg",
     "externalId": "4405",
-    "id": "5267ec75-5f9f-4d8f-9582-b4c1678e1021",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "fde84a12-ae60-4d2e-bf4d-48c8526d2a8c",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1147,9 +507,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1772985600000/xduv4kj12oh8puqv35-1773051367099.jpg",
     "externalId": "4370",
-    "id": "33c93158-ed0a-425b-88d4-8bda7d207367",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "23bf0203-4741-4f1d-ace7-3ee684f61958",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1163,9 +523,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1772553600000/s5hg3qll5ttwiiiw59-1772612019489.jpg",
     "externalId": "4357",
-    "id": "a58fd495-3453-4e58-9f83-940eb5930d08",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "00a2fa72-7b0a-4272-acc3-3ce84ae6d126",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1179,9 +539,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1771948800000/dmampscpu22cfehslt-1772001674685.jpg",
     "externalId": "4347",
-    "id": "5d31e20e-ac7c-4f0b-ade6-ab845a94d6a9",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "2fd556e0-48dc-417e-b498-b16ec6e5a615",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1195,9 +555,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1771948800000/5ddyc60j9eddg9n3n4-1772001254552.jpg",
     "externalId": "4339",
-    "id": "12e71663-ccac-487f-80dd-b54bd6b7d2c9",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "cf52b327-012c-4baf-a9e2-9714a16537c7",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1211,9 +571,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1771948800000/4ipci9lrnx807vf9fc-1772000778123.jpg",
     "externalId": "4331",
-    "id": "8a00db89-5af8-494e-8673-dce6fd446c72",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "923117cf-cbcc-464e-a681-826c1f36c2a3",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1227,9 +587,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1771948800000/nctrl4sgfev2gaiyu8-1772000402089.jpg",
     "externalId": "4323",
-    "id": "294bf772-5def-40dc-a07a-d04af8214e46",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "811ba684-970b-4c2d-b97a-3bb2fb1bbd22",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1243,9 +603,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770652800000/2b8v5486wwp831x0no-1770708033842.jpg",
     "externalId": "4266",
-    "id": "c1dc9d10-3a2d-4068-b779-56154144b9be",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "bd82b400-d671-4ed6-a79a-40211a745c51",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1259,9 +619,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770652800000/t059k2hl6npse04cwz-1770707677193.jpg",
     "externalId": "4258",
-    "id": "73f65bc7-df56-436a-aa22-663018929063",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "a226fc55-7f7d-4107-a5fe-dd60cb7eedf0",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1275,9 +635,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770652800000/aww53h7q74vrlay6ic-1770706961388.jpg",
     "externalId": "4250",
-    "id": "23144851-b1ee-4205-b6ab-72bca906c3e3",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "8394a1f1-182e-45cf-b3f0-040e8fdded46",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1291,9 +651,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770220800000/ininp3uktcxrpmdrhw-1770286857793.jpg",
     "externalId": "4226",
-    "id": "cbe0287b-5abd-4904-bd61-1d49f8fc2e28",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "aae4ecad-ed55-4ebe-bd4a-ec211941a7ff",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1307,9 +667,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770220800000/2f27j2pk6x61z7rh9j-1770290115160.png",
     "externalId": "4176",
-    "id": "0c35880b-6b77-4ecb-bb51-eb9911027b10",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "4fb27414-85a9-4efe-b484-0b042e5a78ac",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1323,9 +683,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770220800000/ginxxvuif59erjxbtj-1770259205730.jpg",
     "externalId": "4212",
-    "id": "8da148e7-9698-4ceb-9d32-a32d9fed99cb",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "038b8759-1f2d-4586-b3da-97590d56202e",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1339,9 +699,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770134400000/gb54tzqghukpe6v7wo-1770180764111.jpg",
     "externalId": "4185",
-    "id": "158f5eec-b06c-4445-894f-4b59341a47d8",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "a5d78f5f-2533-456a-a2e4-3cde296d25c3",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1355,9 +715,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770134400000/1a0pc776k7yspv58v4-1770180712494.jpg",
     "externalId": "4184",
-    "id": "5e4c5dbc-0bc6-49e5-b908-5b034bbd5836",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "1ba6108f-29fa-49af-b8e7-9a5c273bd2ed",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1371,9 +731,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770134400000/02gwgwm4d9axwamzvg-1770177847520.jpg",
     "externalId": "4183",
-    "id": "67a82b14-ab98-45ab-ab4e-87f689d2b9ab",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "574955f0-3bef-42ee-b356-95cb792a9bb8",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1387,9 +747,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770134400000/n241lbycpjk6yzvzpg-1770177788242.jpg",
     "externalId": "4182",
-    "id": "b3803197-1c9c-4b24-b39a-630181f70026",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "b5b5ac00-0810-4823-b9cb-162e2f15f310",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1403,9 +763,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770134400000/lg3z0nc9iw0iqln5pv-1770218001888.jpg",
     "externalId": "4206",
-    "id": "9261189a-c24f-419c-b59c-091742989c9d",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "1fd28abd-7b8f-45f0-9ff8-59d01095c4d5",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1419,9 +779,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1770134400000/1j8so2dzlmcsbjoq8x-1770217411655.jpg",
     "externalId": "4198",
-    "id": "13ab7ad7-54cd-4c91-bfd9-e65834eca4df",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "65061550-7894-4ac5-a139-085c5eb1a600",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1435,9 +795,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1768924800000/5777r69t8an7z5g3oy-1768962737876.jpg",
     "externalId": "4066",
-    "id": "4b3b9dd3-64c7-4d4a-98ef-9118e62fdda5",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "a42c7b66-9a38-4d38-b616-dfecaf588be5",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1451,9 +811,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1768320000000/oke6n88mjb7db7bf4x-1768360954248.jpg",
     "externalId": "4051",
-    "id": "e0039965-aa6f-4f17-995c-34382516b752",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "213a9506-1b1e-4a87-a913-eff3c75954bd",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1467,9 +827,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1768320000000/6xfy6bhbnll82vu139-1768360517628.jpg",
     "externalId": "4043",
-    "id": "30f6fb6d-2470-4e0c-94de-b023fa4a9556",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "edc0be42-399c-40d2-af66-88246b961970",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1483,9 +843,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1768320000000/jz3zgclubphgic0do8-1768359984951.jpg",
     "externalId": "4035",
-    "id": "9a093c70-bca2-44ea-be5f-4c67f11b2716",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "0b78a12a-312e-4bb2-9b41-dfdfa686bc6d",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1499,9 +859,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1768320000000/r2zrhj81yr0ntnk2f9-1768359259009.jpg",
     "externalId": "4027",
-    "id": "65d80fbd-5a33-464b-99c3-c0f8dfe0e663",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "45721e6e-97f0-4cf0-ad9b-de39c5f8d97d",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1515,9 +875,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1768320000000/y1n61c98kf21tazxmw-1768358828980.jpg",
     "externalId": "4019",
-    "id": "b3ba30cc-899d-495e-95ee-7bad567553bf",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "f4ed9e12-5b38-4061-bb7d-1f7528048594",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1531,9 +891,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1768320000000/nsjtbbqolpk4vn4yws-1768358342113.jpg",
     "externalId": "4011",
-    "id": "3a71aca2-42e3-441e-afb7-7a71eacf6d70",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "dec5188a-abf3-4779-a18d-29dc72ff30b3",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1547,9 +907,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1767715200000/ltzsb0t7pat0ur12i5-1767756567714.jpg",
     "externalId": "3964",
-    "id": "841a0aa7-7bbf-4952-97f0-7ab91b457526",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "f19c4c1a-cbb7-4bf2-b625-5292ef56d3a2",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1563,9 +923,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1767024000000/7ium3o1fp12he0ytxv-1767068384384.jpg",
     "externalId": "3948",
-    "id": "e8f60c20-9ec6-4d1b-9e03-5194261edd6b",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "b568c863-6f73-4c07-935b-72485e016453",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1579,9 +939,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1766592000000/lftqwz4g5pkq6rcsek-1766632641099.png",
     "externalId": "3926",
-    "id": "b07c0a06-ee29-452d-9d6a-fd4bac94b73a",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "36f5f43b-4384-4027-bed5-2d04253f5628",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "wuwa",
@@ -1595,9 +955,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1766592000000/5v4x3iaisfx8theidd-1766628134656.jpg",
     "externalId": "3923",
-    "id": "d360368c-7c19-4f6b-992b-035e6fefdbe9",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "11ccb14d-f747-4e76-98ad-455affa182ad",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1611,9 +971,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/07/29/fa722a6c7dbdab2aa7fa6ed15287d9c8_8716221778133671185_transformed.jpg",
     "externalId": "1383",
-    "id": "6d354a06-bfa5-4f9b-9e1e-14193d1123a5",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "7bd485c8-8ce6-4b4e-ad65-a6ea26b899c1",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1627,9 +987,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/17/28b86ef225038c77aa28eb1a52eed218_48689105699651267_transformed.png",
     "externalId": "1384",
-    "id": "2c6e60f8-1dfc-4845-af8d-2ccc25f89fa0",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "2bea29e2-759a-4ade-ae28-a83b15ff2970",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1643,9 +1003,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/19/14f8e513a8014c5a1058ec5f96e4e55f_5751500227392896039_transformed.png",
     "externalId": "1386",
-    "id": "a0dd11ce-52df-4785-980a-3c92e2f636b2",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "83607423-c14f-48b7-b035-b54669985805",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1659,9 +1019,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/07/29/6f92b0939479e8939c555d842c11f2ea_7607069636879090951_transformed.png",
     "externalId": "1361",
-    "id": "ea211619-febc-41c2-8470-299dea0ddc23",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "e7f95edc-db5d-46e6-8a0f-fa5e2bbb6178",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1675,9 +1035,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "1364",
-    "id": "333ea4fb-abd5-43fd-863f-54d9320f837b",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "efd0a994-4fbc-497f-b07f-a5c0ec6aab0f",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1691,9 +1051,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/03/f88a77616b9e21d64d89039908468d0c_6838547253906900799_transformed.png",
     "externalId": "1360",
-    "id": "8b9dc1c5-80fe-408a-b6c0-b7e2bfd9f7dc",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "6089aa72-343a-41c3-bd2d-f259aaabf83c",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1707,9 +1067,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/22/a43438be3b5d5a558f8c9b07177df67c_8028010698134103906_transformed.png",
     "externalId": "1339",
-    "id": "e679b3be-d3ae-4884-bc1a-3868d4bfa3f8",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "06f58f86-dfb1-46f9-9008-a89ffd251d36",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1723,9 +1083,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/11/5a010b321cc7c3877fe04af86cb707ab_4618091975776320145_transformed.png",
     "externalId": "1333",
-    "id": "9d27cd1d-7b70-43ec-8a63-543542e510a4",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "4e58744a-2e4f-4b02-817d-3f74a61dd64d",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1739,9 +1099,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/13/0f38d96d699914521bfa504bb3fc9e5d_6010003839122434122_transformed.png",
     "externalId": "1328",
-    "id": "e96722d8-87f7-42f1-b03e-29c742bb7593",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "1a7cf3c4-7be6-43c5-a879-ca96d6fab285",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1755,9 +1115,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/25/526fdbb512349b2990c4f615a6b57b66_7166479584561314079_transformed.png",
     "externalId": "1329",
-    "id": "f8a87ea7-f44f-4b09-98fa-e6cdc1291da3",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "6069f795-b1d2-4966-a556-29cbad76ed30",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1771,9 +1131,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/13/3b1167f26e86761c7fbd255b21bf375c_2465242631249723666_transformed.png",
     "externalId": "1315",
-    "id": "8bd5e5e2-fa66-47df-bc02-1f4f73948fb0",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "0e398a90-675d-4b4a-834f-6b2172331db9",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1787,9 +1147,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/01/19/102aeb828f609b0543140ba0401ce8c7_2979168680807821114_transformed.png",
     "externalId": "1196",
-    "id": "053407ab-228b-468d-b80c-e20945e7aa05",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "da9022d9-855f-4f74-9cc7-49d1fad3158a",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1803,9 +1163,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2023/04/26/549c1abe387269f3536e9707da4a5baf_7998490729632394225.png",
     "externalId": "211",
-    "id": "13f2c72f-46bd-42b2-9299-32e26e1f7edf",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "27aceac8-2b16-440b-a168-47c88c395976",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1819,9 +1179,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2023/04/04/ac93c2d33680f29bf19594a5a8673eca_2701625878951864372.png",
     "externalId": "186",
-    "id": "84515949-1e43-4eb3-b0d6-2591b78e5ba9",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "e1eec796-9874-4b6a-b5cf-b6c03f2cb3fe",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1835,9 +1195,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/12/9fca60275290dfd9369fe91f46cd60a6_8578293670367464521_transformed.png",
     "externalId": "1343",
-    "id": "9418e5c2-85ff-4e43-86c1-7222e6912821",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "3f9ad28f-8b1c-4019-9d09-6c876bd2f8dd",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1851,9 +1211,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/07/29/c837559ad09e767458cca2f9dda2e1c9_6317211251783064624_transformed.png",
     "externalId": "1337",
-    "id": "585fcc2f-c85e-4ac1-b701-5bc9fe54e4df",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "c35b8c02-3e13-406a-ad68-f482b2e50c08",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1867,9 +1227,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/15/afef5c2bfe94efa94bdbf47960ce15fc_1925208142624045429_transformed.png",
     "externalId": "1294",
-    "id": "9f18abd2-66a1-4566-b9f9-abe57597f86c",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "3c59d04a-e03e-4fbb-aa37-cb801815dcbd",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1883,9 +1243,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/16/94ee02c89e9881a1881e06224578fc42_7659817171550565490_transformed.png",
     "externalId": "1304",
-    "id": "52d43693-1b77-4886-8c73-e1f758353df0",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "63b862f1-23ca-4e17-9a20-69ad6c30de57",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1899,9 +1259,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/24/247a5b27561edd5f50e50c5183ab1f3c_6623461423612914680_transformed.png",
     "externalId": "1301",
-    "id": "c594b778-60d6-440c-804b-5bab8e30cf1e",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "bac29121-9398-4a02-9534-96219b241565",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1915,9 +1275,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/23/0912bd61069473e1bb17edc13a894455_7522705189607896741_transformed.png",
     "externalId": "1296",
-    "id": "c2be78d8-2ed7-446d-bd9a-3f47c55cc7ad",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "cbe543b5-8edb-4908-a694-a0f2e45ff3a6",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1931,9 +1291,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/15/7e3f9accdf3424415cc522639e8dd9c0_6155953321510189599_transformed.png",
     "externalId": "1299",
-    "id": "e22d627e-6ac6-41b6-a9b9-f3bae2dd01ae",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "78bd29e0-8023-4e46-bba9-210d9106adf3",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1947,9 +1307,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/03/30/dba6e41488574a708d6037a7b241b7a2_2458958445287278733_transformed.png",
     "externalId": "1232",
-    "id": "d8dc1be2-40f9-4b90-bdec-93a4eefe554c",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "be7ca97d-cb75-4ab8-a740-028a2028d450",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "starrail",
@@ -1963,9 +1323,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/03/03/f4cfacef4e6e91cef843d0dd923b6fe1_1873521452291268860_transformed.png",
     "externalId": "1211",
-    "id": "02b10897-f85c-4600-b17c-75a23d254cf5",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "9495b675-6288-497c-babf-0619f94e3018",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -1979,9 +1339,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "8da875aaa35f6a4711a8d15a4900fd0f88eb#1.1",
-    "id": "5f383bdb-8a8d-4200-9647-d8eaeb385736",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "2d2add92-05e4-4213-be7e-72f274bd37a2",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -1995,9 +1355,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "8da875aaa35f6a4711a8d15a4900fd0f88eb#1.2",
-    "id": "2fcbddd1-0f28-47d3-b862-d4a50583cc7d",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "439edcdc-a32f-4b3a-87e8-529b2e8b911d",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2011,9 +1371,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "8da875aaa35f6a4711a8d15a4900fd0f88eb#4.1",
-    "id": "e3879955-0173-48cf-a1e8-fe1ae9e0e8c9",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "e8ffc530-4c64-4de7-b188-a3c7679d8b6b",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2027,9 +1387,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "8da875aaa35f6a4711a8d15a4900fd0f88eb#4.2",
-    "id": "6947b7ea-137a-4f4c-a35d-709cc97aa8ee",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "39580c70-2c86-4d0f-b052-180dc5646210",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2043,9 +1403,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "8da875aaa35f6a4711a8d15a4900fd0f88eb#4.5",
-    "id": "16c543d3-2b7d-4627-bb44-5bbeb41eefdc",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "269fc279-1957-4f33-b397-44862417b675",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2059,9 +1419,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "8da875aaa35f6a4711a8d15a4900fd0f88eb#4.6",
-    "id": "3f90054b-ee9e-4818-a00a-52bcf7ae9ed1",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "36ca3a2b-31d4-43b7-a38c-d7c36d1c39fc",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2075,9 +1435,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "8da875aaa35f6a4711a8d15a4900fd0f88eb#4.7",
-    "id": "41fddc59-a813-4cd9-a7de-04aac167cd66",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "dbac2da4-33d7-4e9d-b463-8007c9f97050",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2091,9 +1451,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "8da875aaa35f6a4711a8d15a4900fd0f88eb#9.2",
-    "id": "b22b73bf-4b87-424a-ad0c-17f64ab6324f",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "7dc06479-2635-4a50-8cbd-581f86121539",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2107,9 +1467,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "8da875aaa35f6a4711a8d15a4900fd0f88eb#9.3",
-    "id": "4f291b43-29cf-4768-bb90-2c39250d4eab",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "19ae970e-8014-4417-832b-8b6777dcd73f",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2123,9 +1483,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "b263470ea4c71a4dddab742ada3f9e7e615d#1.1",
-    "id": "9c16f34a-759c-4ea8-8710-dc38ea1056f2",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "fd898085-8af4-4836-a169-37c4daf0ac08",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2139,9 +1499,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "b263470ea4c71a4dddab742ada3f9e7e615d#1.2",
-    "id": "3fce67d5-2a0e-4751-9d4d-41aa96ba9560",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "6eb1f9d5-2236-4250-b7a8-9426c87ba6fd",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2155,9 +1515,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "b263470ea4c71a4dddab742ada3f9e7e615d#4.1",
-    "id": "b2c52c1e-1973-42f3-b97b-8667b9c9cf57",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "9afed12b-c2d7-4eab-9692-36dc6ec9bdc3",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2171,9 +1531,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "b263470ea4c71a4dddab742ada3f9e7e615d#4.4",
-    "id": "6f6e0db2-fa59-4d7e-bd74-077808d527ed",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "69fd81ad-4f64-4b06-9fc8-f3d445d34446",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2187,9 +1547,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "b263470ea4c71a4dddab742ada3f9e7e615d#4.5",
-    "id": "22d99cd9-57b4-499f-a188-37ad287bd7a9",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "0012d455-3ccd-47de-8a3d-bfaa58d53ea6",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2203,9 +1563,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "b263470ea4c71a4dddab742ada3f9e7e615d#8",
-    "id": "383eda81-a5ed-4b4d-95cf-a19232a356b4",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "ccf960c5-c463-433a-9b3e-78e8a5151dac",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2219,9 +1579,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "b263470ea4c71a4dddab742ada3f9e7e615d#10.1",
-    "id": "9d77666d-1e7a-4f87-b766-0010676a7ed4",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "9838ebe8-079f-4edf-b274-95826990ac11",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2235,9 +1595,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "b263470ea4c71a4dddab742ada3f9e7e615d#10.3",
-    "id": "37de534a-f6f9-478d-bee2-9bcb9c482d87",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "2e4bee94-af23-4806-a76d-64175cdd0c02",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2251,9 +1611,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "29f47298ad9d3a4a91a8438ac563bc29b89c#1.1",
-    "id": "7211355d-d2c6-49cb-a711-c1397917ad72",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "c0861dd9-2bb3-4659-9ba4-ea60fc2ba097",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2267,9 +1627,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "29f47298ad9d3a4a91a8438ac563bc29b89c#1.2",
-    "id": "803a9b2e-ad57-4159-8c2f-7d36824f23b9",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "788eb8a0-8e83-4b91-ae8b-de7c9bbd3442",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2283,9 +1643,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "29f47298ad9d3a4a91a8438ac563bc29b89c#2.1",
-    "id": "f1e370cd-2930-4764-a657-3e5c9dcfa5e3",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "9fb18cd1-4079-4a70-8c7c-510453388b7d",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2299,9 +1659,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "29f47298ad9d3a4a91a8438ac563bc29b89c#2.2",
-    "id": "86e6eda0-0825-4227-8473-b537bbca9056",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "395e7669-ecc9-4d89-a51b-1bc21ee80514",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2315,9 +1675,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "29f47298ad9d3a4a91a8438ac563bc29b89c#5.1",
-    "id": "b2ee274e-0468-4733-bca4-273294d4e694",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "bafd4f4b-00ea-4c6e-9c23-c5f38ebfbf54",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2331,9 +1691,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "29f47298ad9d3a4a91a8438ac563bc29b89c#5.2",
-    "id": "792533a2-a047-44be-b501-f1c8113e9e9e",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "289b7d80-9c6d-4c9d-ac8d-fbaf33135a70",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2347,9 +1707,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "29f47298ad9d3a4a91a8438ac563bc29b89c#5.5",
-    "id": "50a61de2-2dfa-4927-b3a3-2bc5ed6d2494",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "958f235d-979c-4932-933f-8ffe888acf3d",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2363,9 +1723,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "29f47298ad9d3a4a91a8438ac563bc29b89c#5.7",
-    "id": "91d73ab7-d0f1-419a-b557-92769d848cae",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "10b0bb3b-bfe9-4fd3-b0a2-87a971f5767a",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2379,9 +1739,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "29f47298ad9d3a4a91a8438ac563bc29b89c#7",
-    "id": "e63d1ea9-109d-48ca-afdb-747fa654c16a",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "ec44ca9a-ac99-4f0b-a56c-637600964163",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2395,9 +1755,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "29f47298ad9d3a4a91a8438ac563bc29b89c#13.2",
-    "id": "51eb501f-ee10-4ce9-bedc-0e98c4f6f222",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "137a2f9f-e862-4fcb-9ce0-d0c266537623",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2411,9 +1771,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#1.1",
-    "id": "e96624a0-c477-42aa-a695-de4002c015ff",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "32184195-2de2-4b5b-b441-568514c5c7eb",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2427,9 +1787,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#2.1",
-    "id": "76150880-d488-4bbb-adc0-b688735784a9",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "d196ba39-66d4-456f-ac9d-dba1b564ec59",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2443,9 +1803,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#2.2",
-    "id": "7a76afff-25b3-4329-a13f-7b01122c1f41",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "339c0d21-02e9-4c41-97e3-a5c70c749bdb",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2459,9 +1819,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#2.3",
-    "id": "b86e55ed-3fc8-49c6-a799-620ba6af8d79",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "7b4e3c2c-aab0-4879-aa5c-3e7b7e3da6a2",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2475,9 +1835,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#2.4",
-    "id": "1425e71f-cd1f-40ac-a297-af0133ecaacc",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "111eee26-74f2-4578-b279-522331e67409",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2491,9 +1851,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#2.5",
-    "id": "44a30b6d-ebf7-4b06-88f9-1fa43777470a",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "7e21d9fd-88fc-474d-8f79-7c6510dfc8c1",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2507,9 +1867,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#2.6",
-    "id": "3dcb33b8-2f4c-496e-a407-edebefb0ac51",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "05d8978e-1da7-44a4-9ca3-fa52df9d87e7",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2523,9 +1883,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#5.1",
-    "id": "fc6f8087-9de5-4995-9e50-1c96121a3149",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "5d7a9527-60fe-4dbb-8700-5e4e2dab8078",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2539,9 +1899,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#5.2",
-    "id": "89a89d02-25ff-4c4f-b500-fc838e759f90",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "faa59884-ca39-47c5-90e5-eaf55f9981e2",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2555,9 +1915,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#5.5",
-    "id": "6f10ffdd-d7d9-441b-9a8c-328dd1237b62",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "170202d9-19db-4ace-b723-c241d80a0975",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2571,9 +1931,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#5.7",
-    "id": "772dcccf-15b8-48e1-8b5f-7337d9ff2649",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "b09ef043-5357-4298-84d8-4135c3997a34",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2587,9 +1947,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#9",
-    "id": "85e3cbb4-e17c-4d6e-8b02-95148c66f846",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "8561feef-5650-4c4d-9079-ff8ea4fe4bae",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2603,9 +1963,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "49aa55e2aba26a4955aa281a3c90a844bc53#12.2",
-    "id": "bfdd1bf1-6f48-4cd8-a54a-607457e24244",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "508e6645-f76f-4015-8e85-b0107fd78ff3",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2619,9 +1979,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "0675c61fa2f66a46f8abd1fad3d962209b5c#1.1",
-    "id": "ac9c5813-2b18-4ea8-a83e-6a55de5c5a46",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "1e08b7ae-8523-4ff6-a09c-08b4e808b1e7",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2635,9 +1995,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "0675c61fa2f66a46f8abd1fad3d962209b5c#3.1",
-    "id": "fea1dfd9-864c-462c-8d31-4b94cbe323cc",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "9e351224-f834-4266-a910-53a235221fe7",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2651,9 +2011,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "0675c61fa2f66a46f8abd1fad3d962209b5c#3.3",
-    "id": "7c96d8be-b32e-4439-b8d0-8ab1fb3e902f",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "cbf3b706-7864-4afc-ba71-7bda99ababc9",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "nikke",
@@ -2667,9 +2027,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "0675c61fa2f66a46f8abd1fad3d962209b5c#7.1",
-    "id": "af59463d-12df-4e68-945e-6008fa725251",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "c55aa70d-c0b1-4c2e-b074-099fab8f8e94",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2683,9 +2043,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "21862",
-    "id": "61899489-02fb-46e2-9be6-2cea4628a68b",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "5e763031-46e8-4734-a042-e8a918d7213c",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2699,9 +2059,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/11/2ac563436bd8ce18225f48556d116511_4370283280053451871_transformed.jpg",
     "externalId": "21857",
-    "id": "67b61e69-b6c2-4ed6-a485-be529aa309ca",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "cc38c3fd-57aa-4441-93b1-ade19bf7f3bf",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2715,9 +2075,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/announcement/2020/11/11/def26a8578cab462fe2d54945826c6c6_5854140079435359343.jpg",
     "externalId": "21866",
-    "id": "72c6b784-430b-4fef-a9c7-97cb582809c6",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "5dd2d0ef-067e-4671-9c28-7f44fbd09062",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2731,9 +2091,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/07/28/4ca4022b82551c7cf35bb886d75010c2_3475591036465263798_transformed.jpg",
     "externalId": "21798",
-    "id": "ceb7ac7d-1382-4595-bb9b-9cd4daff7bfd",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "517132c0-88e7-42b1-812f-6dac6f0e62dd",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2747,9 +2107,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/announcement/2022/08/17/6c56b1f5d388831af9480db104a0ee1b_477058655491061469.jpg",
     "externalId": "21848",
-    "id": "fe6a10b1-9cc5-4244-a334-c8a875f67ce4",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "3bf838c7-a363-423a-a1d3-9fc379391d9e",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2763,9 +2123,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2022/12/06/c3ba89e6a199e984b6d9d1cf9af2201f_951781454918531589.png",
     "externalId": "21838",
-    "id": "4c9d5120-cc1b-40c4-b6ec-bb7008c712fe",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "c606015e-f27a-4323-8fda-1aaab374727c",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2779,9 +2139,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2022/12/06/50969ff673e154a0d0daa3014e22ad98_7551866884636599312.jpg",
     "externalId": "1249",
-    "id": "b73622e9-3b64-408a-9306-c5626ccb204c",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "58e305e4-b6eb-4975-8d16-571f9a81d9bd",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2795,9 +2155,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/announcement/2020/09/22/c5d4373857448e7063aa16d5d157299e_1376500514542462001.jpg",
     "externalId": "1250",
-    "id": "42431aab-3736-424a-a759-f1df546b881f",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "dec7df34-9251-41f0-af95-279c4b8f4725",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2811,9 +2171,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2025/11/12/1f6d6fa38357fd60bf0acb9aa34f437b_5153328789818496284_transformed.jpg",
     "externalId": "21455",
-    "id": "57f3ac29-c9f6-4d85-890d-f8497c759825",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "4e48b0b8-e5d3-4e8e-9ba9-f106dc4ff1b4",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2827,9 +2187,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/announcement/2020/09/17/cba9fff51adff22931dd6d159c9d5381_5643765436402898152.jpg",
     "externalId": "1251",
-    "id": "96ab7bcc-3cbf-4d2f-8627-e6d198672a8b",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "45399212-fd30-4b08-9298-b6dafb2fa04f",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2843,9 +2203,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/04/b5efc6356d48552f1aef2b2e861118ef_5731156577112270706_transformed.jpg",
     "externalId": "21847",
-    "id": "25b561b6-f64e-4b1e-8bd0-7d32164fedba",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "5943c0ba-6ff6-4222-ba6d-c071930b7ea3",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2859,9 +2219,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/05/330a25a7d08d7d07c9d2e61934144031_5425571546271803378_transformed.jpg",
     "externalId": "21803",
-    "id": "22d050d7-6e17-4e9f-8c00-64f592d7d8dd",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "50b631a9-9a39-47d4-a9af-a7e60d9784f6",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2875,9 +2235,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/04/253b66557551d6067dfa500aa9bddd43_8921526302087186117_transformed.jpg",
     "externalId": "21804",
-    "id": "a18cd2c5-61ee-4e74-b5d7-4a0b3c210f6b",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "c0c75de0-eea1-4988-9030-ddcf2b61cd3c",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2891,9 +2251,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/04/ba404a55eb3bc6432d4435907f3418a8_3640516397082321992_transformed.jpg",
     "externalId": "21807",
-    "id": "4ec8e642-41d2-404a-b55e-77f5fdc0c8c3",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "a25dc4d9-0326-4ca8-b694-4b465799afab",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2907,9 +2267,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/04/8336cc32a83cf7192f77fb80172b34ed_2625949576724451129_transformed.jpg",
     "externalId": "21809",
-    "id": "1d1ff745-3dc9-45cf-8bbc-43ec3fe1a424",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "35d9a632-0eb2-42b9-bac9-977212fecaed",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2923,9 +2283,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/04/e721fb39a2ea01a462952a3ac5a3dd63_4482155442118226444_transformed.jpg",
     "externalId": "21811",
-    "id": "a566b15b-9185-4978-8eb9-2c9376065587",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "bb00aef4-2b7a-4d1b-adf4-b2c614bc6875",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2939,9 +2299,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/04/ba26b5693acfee371d84ab7d33f24f11_2968953728617420137_transformed.jpg",
     "externalId": "21812",
-    "id": "fb962b6d-248b-4452-9c76-3532ce4a88e8",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "1826a954-c4f1-41ce-bfcc-bdb97a9a5759",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2955,9 +2315,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/05/42b161d72b8900e2e38366e7e49297d0_8791747697597754909_transformed.jpg",
     "externalId": "21814",
-    "id": "4140eec8-02a5-4fa3-88f4-6fac5f79304f",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "240f260d-b335-4f5c-9615-7e983702877d",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2971,9 +2331,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/04/c0ed6b3320bb9d97fad8242adf5333d8_6345641688521060072_transformed.jpg",
     "externalId": "21817",
-    "id": "c32a7e43-5799-4b96-9aa4-b2f3ca1f56a4",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "de60e4ba-f428-49e1-a02a-e8d2ef461ab1",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -2987,9 +2347,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/05/e609ef98f13a8a9749d6cdb4fb611efb_7847605108768335894_transformed.jpg",
     "externalId": "21818",
-    "id": "3230a61e-0774-4229-a10e-23cdcc91ffad",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "c5b237dd-9d69-452e-bf91-c83c9c489ab4",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -3003,9 +2363,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2024/08/15/a04999fe3ecdf6524b7cd450956cc5cc_7876103509242540078.jpg",
     "externalId": "20661",
-    "id": "358885ca-977d-469c-8c15-abd184021aec",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "760e4c7b-e2c5-434a-9772-568c857956c4",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -3019,9 +2379,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/05/28/74779ef1548a4d03f14a6415d11949c7_60003878469581363_transformed.png",
     "externalId": "21761",
-    "id": "409248c3-4a65-42a4-abbb-c616d0b92e55",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "9ba78ef4-e395-4a45-b6de-891438e55b5e",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -3035,9 +2395,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/17/ed6af3cca599fb0de5d3a8f77aa4f805_3855360895931817978_transformed.jpg",
     "externalId": "21750",
-    "id": "1932cd6c-df79-4457-ac36-f05240d98d57",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "d4bc1fa3-1add-499f-9b76-7356b20286ad",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -3051,9 +2411,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/05/07/ef9c86e65323732e86480aa236ca38b2_1102475626467482444_transformed.jpg",
     "externalId": "21707",
-    "id": "d12c8b07-c717-4487-ac00-1cfa8b4f47c8",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "f3857520-74f0-4cf3-affb-ca73d747ae94",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -3067,9 +2427,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/06/a1c911ad3c3b278d83ff0f1aa73341ac_6617912935637627077_transformed.jpg",
     "externalId": "21828",
-    "id": "e87a1c37-53d4-4355-9997-ca3d73a29643",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "56acba5d-5e04-4a14-8919-199b274a3107",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -3083,9 +2443,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/06/7c78b4aa994055fd264ebbb8d6a3b609_3966963215692446318_transformed.jpg",
     "externalId": "21832",
-    "id": "879fa12c-00d7-42d0-be77-15fa6ea00a8e",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "a7589ba4-4059-4f28-8de4-918bd2a1e1aa",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -3099,9 +2459,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/06/ffe37a16c73800bc5fdd94d5fb5b8650_3297887754208488315_transformed.jpg",
     "externalId": "21830",
-    "id": "3f87b91e-bc96-4bbc-857c-60687e4e8bbf",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "c1160f48-4273-4ec9-b88c-75d42eeaaaac",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "genshin",
@@ -3115,9 +2475,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/06/97cc00db5a4e503ea067347136248788_1532827177586201594_transformed.jpg",
     "externalId": "21829",
-    "id": "1c3ebcb0-2fe3-4370-98fb-be7fb1b9ae12",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "238e3936-64a5-40d4-9bdd-37f49044e50c",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3131,9 +2491,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/08/19/0/b924b415396578c76d360b907ff524c5_8396322196131950774.jpeg",
     "externalId": "46388581",
-    "id": "2ffc1128-ae38-49e2-a57e-2490c8daf84a",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "97c4cb9d-8cf9-4027-940a-eb4a03f91654",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3147,9 +2507,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/08/15/0/8ab425e21ca59ca5377991c7e5fdb5f2_7133073528145719101.jpeg",
     "externalId": "46330215",
-    "id": "95090103-57c1-4bfb-95e1-0c422099bdbc",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "b3ba862a-84bc-408e-9ef1-83d19ff769a7",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3163,9 +2523,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/08/15/0/3f407c0ce779a5c9dfacf2fc1e08bf47_418717648249435982.jpeg",
     "externalId": "46330058",
-    "id": "7e7a5592-861f-4831-ab29-35dce6720e5b",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "ee26115d-d69d-4d78-95a6-e21b67cfd1b7",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3179,9 +2539,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/08/15/0/419f49adfe38f50e6fd162707b7ff9cf_4135664073165079270.jpeg",
     "externalId": "46329896",
-    "id": "8fd4b290-7c89-40f6-821c-3449cc361f96",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "2953e2b1-eda0-4c49-85f6-5037c7ef5996",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3195,9 +2555,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/08/15/0/1c23fdd1e862eee260e1bbc7aa43860c_17871561780935923.jpeg",
     "externalId": "46329735",
-    "id": "df357e9d-3f94-4743-b8e3-008f0f0674ba",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "4d79a59f-0523-46f7-9500-2efaba55c4b2",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3211,9 +2571,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/08/08/0/a7f592ed1e85619d2cc1485056f8662c_3081242985774534480.jpeg",
     "externalId": "46208552",
-    "id": "20f954b2-5442-4131-8581-e5943bc3f6f0",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "96d503f3-1118-404c-af74-d50f3077cbf1",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3227,9 +2587,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/08/05/0/bb54ca7a7db1b35a18c71ee460755281_2581333858846301498.jpeg",
     "externalId": "46150564",
-    "id": "a9e259ca-7e87-4527-a879-917520db8d06",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "d1c23fd2-9de8-4230-ae85-ac911d5ad726",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3243,9 +2603,9 @@
     "sourceKind": "official_api",
     "imageUrl": null,
     "externalId": "46062784",
-    "id": "f3623fc6-1a7c-48f1-9032-9f7619bf2247",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "7f5602bc-d217-40fa-b3f3-81a414ec6784",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3259,9 +2619,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/28/0/c5e24aea3fd3e4cd463e84f68ae4f264_5170864159801767327.jpeg",
     "externalId": "46038768",
-    "id": "91caf135-3c41-4be8-930c-f3255e0ea574",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "867a8381-6388-4210-8bc4-15a319ec2c0b",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3275,9 +2635,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/28/0/6aaa091f1ca5abab9483c28f6b42b769_684331415598255409.png",
     "externalId": "46037423",
-    "id": "a428faec-ecfd-4a73-acf6-4f18172b8d40",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "751b94cc-a9d6-4903-b606-512ff1062453",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3291,9 +2651,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/28/0/8f8bacc90f2c7498231adc3520e4dacd_3360946445551416132.jpeg",
     "externalId": "46037106",
-    "id": "3bda1f22-46fd-457d-b8f8-d10083f38306",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "247da03c-3c5c-4117-ba5d-5f9f15b3885a",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3307,9 +2667,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/27/0/8a98f57e922a5965b8fba682f9a467cb_2024276847508552472.jpeg",
     "externalId": "46030622",
-    "id": "92471ab3-8530-46ef-a2af-219fa1683112",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "8f3dc2a8-de7a-41b9-82fe-0de5f3206f6f",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3323,9 +2683,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/27/0/80d2f68c6c64a3ed06da41c92e29157f_5628566802497848981.jpeg",
     "externalId": "46028001",
-    "id": "9b6f0e12-4650-44ad-858d-fcaa5ae7cc2a",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "62e87b51-01df-46d3-b41e-9777bb10b02f",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3339,9 +2699,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/27/0/9a2b00f990c50ae64d120fe918bec5a5_8364330832848083494.jpeg",
     "externalId": "46027894",
-    "id": "dd318a3c-7bc7-4083-beb9-e5a4fc2d465a",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "ed126246-c245-4575-a0fb-a4fc90a6b39f",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3355,9 +2715,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/27/0/895fdeeeb5f1c0695bf663e58ce88e9d_6413911950669319489.jpeg",
     "externalId": "46027787",
-    "id": "71d43b67-7748-48a0-8e04-3783709e3ce7",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "544cc0d1-af20-41c0-95e8-18045c73ee8d",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3371,9 +2731,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/27/0/e96f5d6390631e0a130021f513110a95_8594742453278520557.jpeg",
     "externalId": "46027654",
-    "id": "0fc9002a-10a0-49e7-8a65-fd2b9db78139",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "726fdb51-b8d1-48c3-a57f-5837c9252a7c",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3387,9 +2747,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/26/0/db923948a1918da5890ddef670dad74c_2284106689932641396.jpeg",
     "externalId": "46016232",
-    "id": "34c41f22-755f-4c4a-90f3-df64985872e7",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "94349fae-1e6e-45ac-9c8c-7e4f8eddb53a",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3403,9 +2763,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/26/0/4f36dbf1e57caab337b711e61c1385a3_4203158875651791374.jpeg",
     "externalId": "46016126",
-    "id": "99016902-efd6-4153-a474-139cbf49e4a7",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "75559b62-3f3f-4ff6-b1ce-509dee416b02",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3419,9 +2779,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/26/0/47b6a33e48169269bf0dde3bbdf1c5dc_2276586939070776642.jpeg",
     "externalId": "46015903",
-    "id": "14d3fe2f-22f2-4e6d-a35c-be7b2b5ab70b",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "28d6e496-3510-448e-9068-a077af2fb701",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3435,9 +2795,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/26/0/68f577f27cf73c53c1f730e495e36b96_4645510896036200718.jpeg",
     "externalId": "46015792",
-    "id": "017fefc5-0c38-4ec7-87c4-4f5c303c4c61",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "73ddcf40-8283-478b-9918-b4ab14564d4b",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3451,9 +2811,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/26/0/503dad387dc28eeefaec292e146ad530_4658364921716371506.jpeg",
     "externalId": "46015688",
-    "id": "50b3c4a0-be1f-4636-9c8c-594348e58fdd",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "a663d6c2-4d0b-4ecb-bc11-d4614baa06f5",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3467,9 +2827,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/26/0/647274b79937f5fa812c36451f78cad8_1577605200334335447.jpeg",
     "externalId": "46015487",
-    "id": "75ad6f55-ef30-416d-b161-630567ce64f7",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "76307a9f-933c-41c0-936a-8808fdd86284",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3483,9 +2843,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/18/0/1b200269decadee52b6201ca2f626a04_7903532413882208417.jpeg",
     "externalId": "45927809",
-    "id": "ec1af8cc-7148-4c71-9a5d-9935b5917512",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "496ea623-3d6d-47ec-acfb-8a0fffd93b65",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3499,9 +2859,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/05/0/260ad9aee972a97b76ede4e3f21a745c_8177026645862955256.jpeg",
     "externalId": "45751060",
-    "id": "77ff918b-8146-42b6-bf0c-371afe1b9a22",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "02135f4e-9beb-49e9-8661-0f8404f16b99",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3515,9 +2875,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/05/0/fc37d411377b27678a444c4b0757e458_2440817654546831462.jpeg",
     "externalId": "45750869",
-    "id": "d90b17be-d754-4261-ac19-4b378e8ebacb",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "cdf14aab-3690-4b75-83ae-d095b6912995",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3531,9 +2891,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/05/0/49a87a514d9f93f7655607c659935da1_296404987439354128.jpeg",
     "externalId": "45747694",
-    "id": "3fc47dcd-545f-429b-a35f-1cba2423dab9",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "e7610cc9-10a6-488a-8968-87b2de0352da",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3547,9 +2907,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/05/0/125a48add49193168f0c44c499d1ff46_5896139148286672650.jpeg",
     "externalId": "45747565",
-    "id": "65fb8ce5-9bbc-4624-8677-01fb67ea25b1",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "ca26330d-ff06-48ae-9822-5ab4f6b018d8",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3563,9 +2923,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/07/01/0/a23d4e57d0444018b4ae03e1b5f7fe25_5514446166104879765.jpeg",
     "externalId": "45692018",
-    "id": "734f9928-e29d-41d1-9bdc-0173d63c7575",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "a008257d-8454-4cb9-ad0d-9383bb899aff",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3579,9 +2939,9 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/06/30/0/13bf4f507216a47eb4a5d699c7bb0bd1_1246764878858144640.png",
     "externalId": "45673454",
-    "id": "32060f37-073d-46cb-95c9-c985a99251e8",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "ea73cd41-1b39-456f-b94a-93e6fa937ce0",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   },
   {
     "gameSlug": "zzz",
@@ -3595,8 +2955,8 @@
     "sourceKind": "official_api",
     "imageUrl": "https://upload-os-bbs.hoyolab.com/upload/2026/06/30/0/4aee8367cf6137ce3f46c384fc9000c6_7023084420962816246.png",
     "externalId": "45673200",
-    "id": "881620d8-9a17-415a-857e-9bb42e9fb7cd",
-    "createdAt": "2026-08-21T17:55:52.694Z",
-    "updatedAt": "2026-08-21T17:55:52.694Z"
+    "id": "60f6d852-4ff3-4c36-be39-a12ac5b3fb0c",
+    "createdAt": "2026-08-21T18:26:24.765Z",
+    "updatedAt": "2026-08-21T18:26:24.765Z"
   }
 ]
