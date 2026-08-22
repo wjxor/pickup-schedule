@@ -132,6 +132,31 @@ const FULLY_RELATIVE_PERIOD = new RegExp(
     String.raw`\s*[~-]\s*(?:(\d+\.\d+)\s*)?버전\s*(?:종료|업데이트)\s*전`,
 );
 
+/**
+ * `2026/07/04 01:00:00(KST) 이후` — 시작만 적고 끝을 말하지 않는 표기.
+ *
+ * 생일 선물처럼 해마다 갱신되는 항목이 이렇게 적는다. 종료가 없다고 해서 버릴 값이 아니다.
+ * 게시일보다 이 시각이 훨씬 정확하다.
+ *
+ * `(KST)` 를 반드시 요구한다. 없이 두면 본문에 흩어진 버전 출시일·권장 사양 날짜까지
+ * 시작 시각으로 오인한다.
+ */
+const ABSOLUTE_START_ONLY = new RegExp(`${KST_DATE}${KST_MARK}\\s*(?:이후|부터)`);
+
+/**
+ * `3.1 버전 업데이트 후 … 영구 개방` — 버전과 함께 열려 끝나지 않는 콘텐츠.
+ *
+ * 신규 스토리나 상시 추가되는 Bangboo가 여기 해당한다. 시작은 그 버전이 열리는 시각이고
+ * 종료는 없다. 게시일을 시작으로 쓰면 사전 공지된 만큼(며칠) 앞당겨진다.
+ *
+ * `업데이트 후` 와 `영구` 사이에 설명이 끼어드는 문장이 많아
+ * (`3.1 버전 업데이트 후, S급 「Bangboo」 [아리엘]이 … 영구 추가됩니다`)
+ * 짧은 구간을 허용하되, 물결이 끼면 기간 표기이므로 멈춘다.
+ */
+const PERMANENT_AFTER_UPDATE = new RegExp(
+  String.raw`(?:(\d+\.\d+)\s*)?` + AFTER_UPDATE + String.raw`[^~\n]{0,60}?영구\s*(?:개방|추가|오픈|해금)`,
+);
+
 /** 제목에서 버전 번호를 찾는다. `3.1 버전 「기나긴 이별」 업데이트 공지` → `3.1` */
 const VERSION_IN_TITLE = /(\d+\.\d+)\s*버전/;
 
@@ -218,7 +243,8 @@ function resolveVersion(
 /**
  * 본문에서 기간을 뽑는다. 못 찾으면 null.
  *
- * 절대 날짜 → 시작만 상대 → 양쪽 상대 순으로 시도한다.
+ * 양 끝이 다 있는 표기부터 찾고, 시작만 아는 표기를 뒤에 둔다.
+ * 순서를 뒤집으면 `A ~ B` 의 A만 읽고 종료를 버리게 된다.
  */
 export function extractPeriod(text: string, versions: VersionPeriods): Period | null {
   const absolute = ABSOLUTE_PERIOD.exec(text);
@@ -252,6 +278,22 @@ export function extractPeriod(text: string, versions: VersionPeriods): Period | 
   if (fullyRelative) {
     const versionPeriod = resolveVersion(versions, fullyRelative[1] ?? fullyRelative[2]);
     if (versionPeriod) return versionPeriod;
+  }
+
+  // 여기부터는 종료를 알 수 없는 표기다. 시작만이라도 정확히 잡는다.
+  const permanent = PERMANENT_AFTER_UPDATE.exec(text);
+  if (permanent) {
+    const versionPeriod = resolveVersion(versions, permanent[1]);
+    if (versionPeriod) return { startAt: versionPeriod.startAt, endAt: null };
+  }
+
+  const startOnly = ABSOLUTE_START_ONLY.exec(text);
+  if (startOnly) {
+    try {
+      return { startAt: matchToUtcIso(startOnly, 1, KST_OFFSET_HOURS), endAt: null };
+    } catch {
+      return null;
+    }
   }
 
   return null;
