@@ -81,8 +81,17 @@ export type VersionStarts = Map<string, string>;
  * 점검이 **끝나는** 시각이 곧 새 버전이 열리는 시각이다.
  * 점검 시작을 쓰면 몇 시간 앞당겨진다.
  *
- * 이 줄에는 타임존 표기가 없다. 한국 사이트의 다른 무표기 시각이 모두 한국시간이므로
- * 한국시간으로 해석하되, 호출부에서 경고를 남긴다.
+ * 이 줄에는 타임존 표기가 없지만 한국시간이 맞다. 근거는 두 가지다.
+ *
+ * 1. 명조는 같은 일정을 두 표기로 나란히 적을 때 정확히 한 시간을 벌린다.
+ *    `2026년 5월 21일 10:00 ~ 6월 7일 11:59(서버 시간)` 과
+ *    `2026년 5월 21일 11:00 ~ 6월 7일 12:59(한국 시간)` 이 같은 이벤트다.
+ * 2. 점검을 서버 시간으로 적은 공지는 `04:00` 으로 적는다
+ *    (`2025년 12월 10일 04:00 ~ 3.0 버전 업데이트 전(서버 시간)`).
+ *    버전 점검이 늘 `05:00` 인 것은 한국시간 하루 경계(05:00 ~ 04:59)와 맞물린 값이다.
+ *
+ * 그래도 `(서버 시간)` 이 붙은 줄은 `offsetFromLabel` 이 그 값을 따른다.
+ * 무표기일 때만 한국시간으로 본다.
  */
 export function buildVersionStarts(
   articles: Array<{ title: string; lines: string[] }>,
@@ -268,10 +277,7 @@ export const collectKurogame: CollectorAdapter = async (game, context) => {
   }
 
   if (versionStarts.size > 0) {
-    warnings.push(
-      `버전 시작 시각 확보: ${[...versionStarts.keys()].join(', ')}` +
-        ' (점검 시간 줄에 타임존 표기가 없어 한국시간으로 해석했습니다. 최대 1시간 오차 가능)',
-    );
+    warnings.push(`버전 시작 시각 확보: ${[...versionStarts.keys()].join(', ')}`);
   }
   if (withoutPeriod > 0) {
     warnings.push(`본문에 기간이 없어 게시일을 시작으로 사용한 공지: ${withoutPeriod}건`);
