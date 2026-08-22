@@ -11,6 +11,7 @@
     "collect": "tsx scripts/collect.ts",
     "collect:mock": "tsx scripts/collect.ts --out src/mocks/events.json",
     "db:check": "tsx scripts/db-check.ts",
+    "diagnose": "tsx scripts/diagnose-periods.ts",
     "collect:save": "tsx scripts/collect.ts --save"
   },
   "dependencies": {

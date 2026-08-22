@@ -11,6 +11,7 @@ import {
   offsetFromLabel,
   TILDE,
   type Period,
+  type TimeOfDay,
 } from '@/lib/collectors/korean-date';
 import { type CollectorAdapter, type CollectorContext, skipped } from '@/lib/collectors/types';
 import { unixSecondsToUtcIso } from '@/lib/datetime';
@@ -116,6 +117,36 @@ const HAS_YEAR = /\d{4}\s*년/;
 const MAINTENANCE = String.raw`(?:\s*[^~〜～\n]{0,12}?)?점검\s*(?:종료\s*)?(?:이)?후`;
 
 /**
+ * 점검이 끝나는 시각을 모를 때 쓰는 하한.
+ *
+ * 니케는 점검 시간을 공지 API로 알려주지 않는다. 공식 사이트의 공지 컬럼 두 개
+ * (`NOTICE` / `NEWS`)를 30건씩 훑어도 점검 안내 자체가 없고, 업데이트 공지는 점검
+ * 사흘 전에 올라와 게시 시각도 근거가 되지 못한다.
+ *
+ * 대신 확실한 것이 하나 있다. **니케의 하루 경계는 05:00**이다. 본문에 적힌 일정이
+ * 예외 없이 `5:00:00`에 시작해 `4:59:59`에 끝난다. 점검은 그 경계가 지난 뒤에
+ * 시작하므로, 점검 종료는 반드시 05:00보다 뒤다.
+ *
+ * 그래서 0시가 아니라 05:00을 쓴다. 실제 시각보다 이르다는 성질은 그대로 두면서
+ * (달력에서 일정이 실제보다 늦게 시작한 것처럼 보이지 않는다) 오차를 다섯 시간 줄인다.
+ */
+const MAINTENANCE_END_FLOOR: TimeOfDay = { hour: '05', minute: '00', second: '00' };
+
+/**
+ * 시작 시각을 무엇에 근거해 정했는지.
+ *
+ * 화면에는 드러나지 않지만 수집 로그에서 이 구분이 필요하다.
+ * "근사 32건"이라고만 적으면 그 32건이 얼마나 어긋나 있는지 알 수 없다.
+ */
+export type StartBasis =
+  /** 본문에 시각이 적혀 있었다. */
+  | 'exact'
+  /** `점검 종료 후`로만 적혀 있어 그날 05:00으로 뒀다. */
+  | 'maintenance'
+  /** 날짜만 적혀 있어 그날 0시로 뒀다. */
+  | 'dateOnly';
+
+/**
  * 기간 표기 패턴. 구체적인 것부터 순서대로 시도한다.
  *
  * 니케는 `(UTC+9)`를 붙여 주지만 빠진 줄도 있어, 표기가 없으면 한국시간으로 본다.
@@ -128,11 +159,8 @@ interface PeriodPattern {
   name: string;
   pattern: RegExp;
   read: PeriodReader;
-  /**
-   * 시작 시각이 날짜까지만 확실한 패턴인지.
-   * `점검 종료 후`처럼 시각이 적혀 있지 않은 표기가 여기 해당한다.
-   */
-  approximateStart?: true;
+  /** 이 패턴이 정하는 시작 시각의 근거. 생략하면 본문에 적힌 시각을 그대로 쓴 것이다. */
+  startBasis?: Exclude<StartBasis, 'exact'>;
 }
 
 const PERIOD_PATTERNS: PeriodPattern[] = [
@@ -154,10 +182,10 @@ const PERIOD_PATTERNS: PeriodPattern[] = [
       `${KOREAN_DATE}${MAINTENANCE}\\s*${TILDE}\\s*${KOREAN_DATE}\\s*${KOREAN_TIME}`,
     ),
     read: (m, offset) => ({
-      startAt: matchDateToUtcIso(m, 1, offset),
+      startAt: matchDateToUtcIso(m, 1, offset, MAINTENANCE_END_FLOOR),
       endAt: matchToUtcIso(m, 4, offset),
     }),
-    approximateStart: true,
+    startBasis: 'maintenance',
   },
   {
     // 2026년 4월 23일 ~ 2026년 5월 21일 (시각 없음)
@@ -172,8 +200,11 @@ const PERIOD_PATTERNS: PeriodPattern[] = [
     // 2026년 8월 13일 점검 종료 후 (종료일 없음)
     name: '점검후(무기한)',
     pattern: new RegExp(`${KOREAN_DATE}${MAINTENANCE}`),
-    read: (m, offset) => ({ startAt: matchDateToUtcIso(m, 1, offset), endAt: null }),
-    approximateStart: true,
+    read: (m, offset) => ({
+      startAt: matchDateToUtcIso(m, 1, offset, MAINTENANCE_END_FLOOR),
+      endAt: null,
+    }),
+    startBasis: 'maintenance',
   },
   {
     // 2026년 8월 20일 12:00:00 (시작만)
@@ -186,7 +217,7 @@ const PERIOD_PATTERNS: PeriodPattern[] = [
     name: '날짜하나',
     pattern: new RegExp(KOREAN_DATE),
     read: (m, offset) => ({ startAt: matchDateToUtcIso(m, 1, offset), endAt: null }),
-    approximateStart: true,
+    startBasis: 'dateOnly',
   },
 ];
 
@@ -234,21 +265,21 @@ export function periodLines(body: string[]): string[] {
   return found;
 }
 
-/** 한 줄에서 읽어낸 기간. `approximateStart`면 시작 시각이 아니라 날짜까지만 확실하다. */
+/** 한 줄에서 읽어낸 기간. `startBasis`가 `exact`가 아니면 시각을 지어낸 것이다. */
 export interface ReadPeriod extends Period {
-  approximateStart: boolean;
+  startBasis: StartBasis;
 }
 
 /** 한 줄에서 기간 하나를 읽는다. 어떤 패턴에도 걸리지 않으면 null. */
 export function readPeriod(line: string): ReadPeriod | null {
   const offset = offsetFromLabel(line) ?? KST_OFFSET_HOURS;
 
-  for (const { pattern, read, approximateStart } of PERIOD_PATTERNS) {
+  for (const { pattern, read, startBasis } of PERIOD_PATTERNS) {
     const matched = pattern.exec(line);
     if (!matched) continue;
 
     try {
-      return { ...read(matched, offset), approximateStart: approximateStart === true };
+      return { ...read(matched, offset), startBasis: startBasis ?? 'exact' };
     } catch {
       // 2026년 13월 같은 값은 해석에 실패한다. 다음 패턴으로 넘어간다.
     }
@@ -266,9 +297,9 @@ export function sectionPeriod(section: NoticeSection): ReadPeriod | null {
   const merged = mergePeriods(read);
   if (merged === null) return null;
 
-  // 합친 시작 시각이 어느 줄에서 왔는지 되짚어, 그 줄이 근사였는지 이어받는다.
+  // 합친 시작 시각이 어느 줄에서 왔는지 되짚어, 그 줄의 근거를 이어받는다.
   const source = read.find((period) => period.startAt === merged.startAt);
-  return { ...merged, approximateStart: source?.approximateStart === true };
+  return { ...merged, startBasis: source?.startBasis ?? 'exact' };
 }
 
 // ---------------------------------------------------------------------------
@@ -372,7 +403,8 @@ export const collectLevelInfinite: CollectorAdapter = async (game, context) => {
   const events: CollectedEvent[] = [];
   const keep = new Set<EventType>(keepTypes);
   let noticesWithoutSchedule = 0;
-  let approximateStarts = 0;
+  let maintenanceStarts = 0;
+  let dateOnlyStarts = 0;
   let filteredOut = 0;
 
   for (const item of items.slice(0, noticeCount)) {
@@ -410,9 +442,8 @@ export const collectLevelInfinite: CollectorAdapter = async (game, context) => {
         continue;
       }
 
-      // `점검 종료 후`로만 적힌 시작은 날짜만 알 수 있어 그날 0시로 둔다.
-      // 시각은 최대 반나절 이르지만 날짜는 어긋나지 않는다.
-      if (period.approximateStart) approximateStarts += 1;
+      if (period.startBasis === 'maintenance') maintenanceStarts += 1;
+      else if (period.startBasis === 'dateOnly') dateOnlyStarts += 1;
 
       events.push({
         gameSlug: game.slug,
@@ -472,10 +503,14 @@ export const collectLevelInfinite: CollectorAdapter = async (game, context) => {
   if (noticesWithoutSchedule > 0) {
     warnings.push(`일정 구획이 없어 공지 자체로 남긴 건: ${noticesWithoutSchedule}건`);
   }
-  if (approximateStarts > 0) {
+  if (maintenanceStarts > 0) {
     warnings.push(
-      `"점검 종료 후"로만 적혀 시작 시각을 그날 0시로 둔 일정: ${approximateStarts}건 (날짜는 정확)`,
+      `"점검 종료 후"로만 적혀 시작 시각을 그날 05:00으로 둔 일정: ${maintenanceStarts}건` +
+        ' (니케의 하루 경계가 05:00이라 점검 종료는 그보다 뒤다. 날짜는 정확)',
     );
+  }
+  if (dateOnlyStarts > 0) {
+    warnings.push(`날짜만 적혀 시작 시각을 그날 0시로 둔 일정: ${dateOnlyStarts}건 (날짜는 정확)`);
   }
 
   return { gameSlug: game.slug, events, warnings };
